@@ -1,9 +1,11 @@
 /* ============================================
-   Sharon老师单词库（结构化数据库）
-   ── 扩充方式：往 WORDS 追加词条，往 VIDEOS 追加视频记录即可
+   单词一学会 · 数据库
+   ── 扩充方式：
+   1) 新视频 → 往 VIDEOS 加一条
+   2) 新单词 → 往 WORDS 加一条；老单词学到新视频讲法 → 往该词的 details 数组追加一条
    ============================================ */
 
-// 视频来源库
+// 视频来源库（key = 视频ID）
 const VIDEOS = {
   "7681616605867986227": {
     id: "7681616605867986227",
@@ -14,26 +16,34 @@ const VIDEOS = {
   }
 };
 
-// 词条库
+// 词条库（一个单词可对应多个视频讲解）
 const WORDS = [
   {
     word: "run out of",
     pos: "短语动词",
     ipa: "/rʌn aʊt əv/",
     meaning: "用完，耗尽（某物没有了）",
-    exampleEn: "Mom, we ran out of toilet paper!",
-    exampleZh: "妈，我们的厕纸用完了！",
-    note: "注意过去式 ran out of。run 是跑/运行，但 run out of 是固定搭配，表示「用完」。",
-    videoId: "7681616605867986227"
+    details: [
+      {
+        videoId: "7681616605867986227",
+        exampleEn: "Mom, we ran out of toilet paper!",
+        exampleZh: "妈，我们的厕纸用完了！",
+        note: "注意过去式 ran out of。run 是跑/运行，但 run out of 是固定搭配，表示「用完」。"
+      }
+    ]
   },
   {
     word: "toilet paper",
     pos: "名词",
     ipa: "/ˈtɔɪlət ˈpeɪpər/",
     meaning: "卫生纸，厕纸",
-    exampleEn: "We need to buy more toilet paper.",
-    exampleZh: "我们得再买点厕纸。",
-    note: "不可数名词，常说 a roll of toilet paper（一卷厕纸）。",
-    videoId: "7681616605867986227"
+    details: [
+      {
+        videoId: "7681616605867986227",
+        exampleEn: "We need to buy more toilet paper.",
+        exampleZh: "我们得再买点厕纸。",
+        note: "不可数名词，常说 a roll of toilet paper（一卷厕纸）。"
+      }
+    ]
   }
 ];
