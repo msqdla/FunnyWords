@@ -45,5 +45,19 @@ const WORDS = [
         note: "不可数名词，常说 a roll of toilet paper（一卷厕纸）。"
       }
     ]
+  },
+  {
+    word: "paper",
+    pos: "名词",
+    ipa: "/ˈpeɪpər/",
+    meaning: "纸；纸张；（toilet paper 里的 paper 就是「纸」）",
+    details: [
+      {
+        videoId: "7681616605867986227",
+        exampleEn: "We ran out of toilet paper.",
+        exampleZh: "我们的厕纸用完了。",
+        note: "paper 是「纸」的总称，不可数。toilet paper 是 toilet（厕所）+ paper（纸）= 厕纸；同理还有 tissue paper（纸巾）、newspaper（报纸，注意连写）。"
+      }
+    ]
   }
 ];

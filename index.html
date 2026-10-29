@@ -8,7 +8,7 @@
 <style>
   :root{
     --bg:#f7f8fa; --card:#fff; --primary:#fe2c55; --ink:#161823;
-    --muted:#8a8f99; --line:#ebedf0; --ok:#00b96b;
+    --muted:#8a8f99; --line:#ebedf0;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;padding-bottom:60px}
@@ -17,16 +17,11 @@
   h1{font-size:20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   h1 .sub{font-size:12px;color:var(--muted);font-weight:normal}
   .stats{font-size:12px;color:var(--muted);margin-top:4px}
-  .toolbar{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
-  #search{flex:1;min-width:220px;padding:9px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;outline:none}
+  #search{width:100%;margin-top:10px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;outline:none}
   #search:focus{border-color:var(--primary)}
-  .filters{display:flex;gap:6px}
-  .filters button{padding:7px 13px;border:1px solid var(--line);background:var(--card);border-radius:10px;font-size:13px;cursor:pointer;color:var(--muted)}
-  .filters button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
 
   main{max-width:960px;margin:16px auto;padding:0 14px}
 
-  /* 表格 */
   .table-wrap{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
   table{width:100%;border-collapse:collapse;font-size:14px}
   thead th{background:var(--bg);text-align:left;padding:10px 14px;font-size:12.5px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line);white-space:nowrap}
@@ -34,20 +29,21 @@
   tbody tr:last-child td{border-bottom:none}
   tbody tr.row{cursor:pointer;transition:background .15s}
   tbody tr.row:hover{background:#fafbfc}
-  tbody tr.row.done{opacity:.5}
   .w{font-size:16px;font-weight:700;white-space:nowrap}
   .w .n{font-size:11px;color:var(--primary);background:#fff1f3;border-radius:6px;padding:1px 6px;margin-left:6px;font-weight:600}
+  .parts{margin-top:4px;display:flex;gap:4px;flex-wrap:wrap}
+  .parts span{font-size:11px;color:#5a6172;background:#eef1f5;border-radius:5px;padding:1px 6px;cursor:pointer}
+  .parts span:hover{background:#dfe4ec}
   .m{color:var(--ink);min-width:120px}
   .s{color:var(--muted);font-size:13px;line-height:1.6}
   .s .vt{color:var(--ink);font-weight:600}
   .lk{white-space:nowrap}
   .lk a{font-size:13px;color:var(--primary);text-decoration:none;font-weight:600}
   .lk a:hover{text-decoration:underline}
-  .say{border:none;background:none;color:var(--primary);cursor:pointer;font-size:15px;padding:0 2px;vertical-align:middle}
+  mark{background:#fff3b0;color:inherit;padding:0 1px;border-radius:2px}
 
-  /* 展开详情行 */
   tr.detail>td{background:#fafbfc;padding:14px 18px 18px}
-  .d-block{margin-bottom:12px}
+  .d-block{margin-bottom:14px}
   .d-block:last-child{margin-bottom:0}
   .d-head{font-size:13px;font-weight:700;margin-bottom:6px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
   .d-head .dtitle{color:var(--primary)}
@@ -57,14 +53,11 @@
   .ex .en{font-style:italic}
   .ex .zh{color:var(--muted);margin-top:2px}
   .note{margin-top:6px;font-size:12.5px;color:#8a6d1a;background:#fffbf0;border-radius:8px;padding:8px 12px;line-height:1.6}
-  .d-actions{margin-top:10px;display:flex;gap:8px}
-  .d-actions button{font-size:12px;padding:5px 11px;border-radius:8px;border:1px solid var(--line);background:var(--card);cursor:pointer;color:var(--muted)}
-  .d-actions button.mastered{background:var(--ok);color:#fff;border-color:var(--ok)}
+  .say{margin-top:8px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;font-size:12px;padding:4px 10px;border-radius:8px}
 
   footer{max-width:960px;margin:22px auto 0;padding:0 14px;font-size:12px;color:var(--muted);line-height:1.9}
   .empty{text-align:center;color:var(--muted);padding:50px 0;font-size:14px;background:var(--card);border-radius:12px;border:1px solid var(--line)}
 
-  /* 手机端：表格横向滚动 */
   .table-scroll{overflow-x:auto}
   @media(max-width:640px){
     table{min-width:640px}
@@ -77,14 +70,7 @@
   <div class="wrap">
     <h1>📕 单词一学会 <span class="sub">查单词 · 学搭配 · 跳转原视频</span></h1>
     <div class="stats" id="stats"></div>
-    <div class="toolbar">
-      <input id="search" placeholder="搜索单词 / 释义 / 例句…（如：run out、用完）">
-      <div class="filters">
-        <button class="active" data-f="all">全部</button>
-        <button data-f="undone">未掌握</button>
-        <button data-f="done">已掌握</button>
-      </div>
-    </div>
+    <input id="search" placeholder="搜任意一个词就行，如 run、paper、用完…">
   </div>
 </header>
 <main>
@@ -104,58 +90,136 @@
 </main>
 <footer>
   本站为学习索引工具：仅收录文字化词条（释义/例句/笔记），视频版权归创作者所有，点击链接前往抖音原视频观看学习。<br>
-  数据持续更新中 · 点表格行可展开音标、例句和笔记 · "已掌握"记录保存在本机浏览器
+  数据持续更新中 · 点表格行可展开音标、例句和笔记
 </footer>
 <script src="data.js"></script>
 <script>
-const KEY = "danci_done_v1";
-let done = JSON.parse(localStorage.getItem(KEY) || "{}");
-let filter = "all", query = "", expanded = new Set();
+// —— 数据加载自检 ——
+if (typeof WORDS === "undefined" || typeof VIDEOS === "undefined") {
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("tbody").innerHTML =
+      '<tr><td colspan="4"><div class="empty">⚠️ 数据文件 data.js 没有加载成功。<br>请确认 data.js 与 index.html 在同一目录，或强制刷新（Ctrl+F5）。</div></td></tr>';
+  });
+}
 
-const save = () => localStorage.setItem(KEY, JSON.stringify(done));
+let query = "", expanded = new Set();
 const speak = t => { const u = new SpeechSynthesisUtterance(t); u.lang="en-US"; u.rate=.9; speechSynthesis.speak(u); };
 const videoOf = id => VIDEOS[id] || {title:"未知视频", url:"#", date:"", summary:""};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// 把命中的查询词高亮
+function hl(text, q){
+  if(!q) return esc(text);
+  const safe = esc(text);
+  const qs = esc(q).split(/\s+/).filter(Boolean).map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+  if(!qs.length) return safe;
+  return safe.replace(new RegExp("(" + qs.join("|") + ")", "gi"), "<mark>$1</mark>");
+}
+
+// 搜索匹配：按空格拆成多个关键词，全部命中才返回（AND 逻辑）
+// 匹配范围 = 单词本身 + 大意 + 所有视频的简介/例句/笔记
+function toHaystack(w){
+  const det = w.details.map(d=>{
+    const v = videoOf(d.videoId);
+    return [v.title, v.summary, d.exampleEn, d.exampleZh, d.note||""].join(" ");
+  }).join(" ");
+  return (w.word + " " + (w.pos||"") + " " + w.meaning + " " + det).toLowerCase();
+}
+
+// —— 拆词索引：把 "run out of" 拆成 run / out / of，每个词都能单独定位到这条 ——
+// 自动处理：空格、连字符(-)、斜杠(/)。以后新增词条无需手动维护。
+const INDEX = new Map();   // 单词片段 → [词条, ...]
+WORDS.forEach(w => {
+  w._parts = String(w.word).toLowerCase()
+    .split(/[\s\-\/，,、]+/)
+    .map(s => s.replace(/[^a-z0-9']/g, ""))
+    .filter(Boolean);
+  // 去重，避免 "a a" 之类重复
+  w._parts = [...new Set(w._parts)];
+  w._parts.forEach(p => {
+    if(!INDEX.has(p)) INDEX.set(p, []);
+    INDEX.get(p).push(w);
+  });
+});
+
+// 排序权重：完全等于查询 = 0；查询是某个拆出来的词 = 1；单词包含查询 = 2；仅例句命中 = 3
+function rank(w, q, terms){
+  const lw = w.word.toLowerCase();
+  if(lw === q) return 0;
+  // 全部查询词都精确命中拆分后的单词
+  if(terms.length && terms.every(t => w._parts.includes(t))) return 1;
+  if(terms.length && terms.every(t => w._parts.some(p => p.startsWith(t)))) return 2;
+  if(terms.length && terms.every(t => w.word.toLowerCase().includes(t))) return 2;
+  return 3;
+}
 
 function render(){
   const tb = document.getElementById("tbody");
   tb.innerHTML = "";
-  const q = query.toLowerCase();
-  const match = w => {
-    const det = w.details.map(d=>{
-      const v = videoOf(d.videoId);
-      return (v.title+" "+v.summary+" "+d.exampleEn+" "+d.exampleZh+" "+(d.note||""));
-    }).join(" ");
-    return (w.word+" "+w.meaning+" "+det).toLowerCase().includes(q);
-  };
-  const shown = WORDS.filter(w=>{
-    if(filter==="done" && !done[w.word]) return false;
-    if(filter==="undone" && done[w.word]) return false;
-    return !q || match(w);
-  });
+  const q = query.trim().toLowerCase();
+  const terms = q ? q.split(/\s+/).filter(Boolean) : [];
+
+  // 先取「单词本身命中」的（拆词后任一词命中即算），这是主结果
+  let main = terms.length
+    ? WORDS.filter(w => terms.every(t => w._parts.some(p => p.startsWith(t)) || w.word.toLowerCase().includes(t)))
+    : WORDS.slice();
+  // 再取「仅例句/笔记命中」的，作为补充
+  // 中文查询只匹配释义/中文例句，避免被英文单词的例句串味
+  const isCN = /[\u4e00-\u9fa5]/.test(q);
+  let extra = terms.length
+    ? WORDS.filter(w => {
+        if(main.includes(w)) return false;
+        if(isCN){
+          const cn = [w.meaning, ...w.details.map(d=>d.exampleZh + " " + (d.note||""))].join(" ");
+          return terms.every(t => cn.includes(t));
+        }
+        return terms.every(t => toHaystack(w).includes(t));
+      })
+    : [];
+
+  main.sort((a,b)=> rank(a,q,terms) - rank(b,q,terms));
+  let shown = main;
+  // 主结果为空时，才退回到例句命中结果
+  if(!shown.length) shown = extra;
+
   document.getElementById("stats").textContent =
-    `共 ${WORDS.length} 个单词 · 来自 ${Object.keys(VIDEOS).length} 个视频 · 已掌握 ${Object.keys(done).length}`;
+    q ? (main.length ? `找到 ${shown.length} 个单词` : (shown.length ? `没有单词本身匹配，以下是例句中出现「${query}」的` : `没有找到`)) + ` · 共 ${WORDS.length} 个单词`
+      : `共 ${WORDS.length} 个单词 · 来自 ${Object.keys(VIDEOS).length} 个视频`;
+
   if(!shown.length){
-    tb.innerHTML = `<tr><td colspan="4"><div class="empty">没有匹配的单词</div></td></tr>`;
+    tb.innerHTML = `<tr><td colspan="4"><div class="empty">没有找到「${esc(query)}」<br><span style="font-size:12px">试试只输入单词里的一个词，比如 paper、run</span></div></td></tr>`;
     return;
   }
+
   for(const w of shown){
-    const isDone = !!done[w.word];
     const open = expanded.has(w.word);
     const firstV = videoOf(w.details[0].videoId);
     const sumText = w.details.length === 1
-      ? `<span class="vt">《${firstV.title}》</span> ${firstV.summary}`
+      ? `<span class="vt">《${hl(firstV.title,q)}》</span> ${hl(firstV.summary,q)}`
       : w.details.map(d=>{
           const v = videoOf(d.videoId);
-          return `<div style="margin-bottom:4px">· <span class="vt">《${v.title}》</span> ${v.summary}</div>`;
+          return `<div style="margin-bottom:4px">· <span class="vt">《${hl(v.title,q)}》</span> ${hl(v.summary,q)}</div>`;
         }).join("");
+
     const row = document.createElement("tr");
-    row.className = "row" + (isDone ? " done" : "");
+    row.className = "row";
     row.innerHTML = `
-      <td><span class="w">${w.word}<span class="n">${w.details.length}</span></span></td>
-      <td class="m">${w.meaning}</td>
+      <td>
+        <span class="w">${hl(w.word,q)}<span class="n">${w.details.length}</span></span>
+        ${w._parts.length > 1 ? `<div class="parts">${w._parts.map(p=>`<span data-p="${p}">${p}</span>`).join("")}</div>` : ""}
+      </td>
+      <td class="m">${hl(w.meaning,q)}</td>
       <td class="s">${sumText}</td>
       <td class="lk"><a href="${firstV.url}" target="_blank" onclick="event.stopPropagation()">▶ 观看</a></td>`;
     row.onclick = ()=>{ open ? expanded.delete(w.word) : expanded.add(w.word); render(); };
+    // 点拆分出的小词 → 直接用它搜索
+    row.querySelectorAll(".parts span").forEach(sp=>{
+      sp.onclick = e => {
+        e.stopPropagation();
+        document.getElementById("search").value = sp.dataset.p;
+        query = sp.dataset.p; render();
+      };
+    });
     tb.appendChild(row);
 
     if(open){
@@ -167,36 +231,26 @@ function render(){
           <div class="d-block">
             <div class="d-head">
               <span class="dtitle">🎬《${v.title}》</span>
-              <span class="pos">${w.pos}</span>
-              <span class="ipa">${w.ipa}</span>
+              <span class="pos">${w.pos||""}</span>
+              <span class="ipa">${w.ipa||""}</span>
             </div>
-            <div class="ex"><div class="en">${d.exampleEn}</div><div class="zh">${d.exampleZh}</div></div>
-            ${d.note ? `<div class="note">💡 ${d.note}</div>` : ""}
-            <div class="d-actions">
-              <a href="${v.url}" target="_blank" style="font-size:12px;color:var(--primary);text-decoration:none;align-self:center">▶ 去抖音看这条讲解</a>
-            </div>
+            <div class="ex"><div class="en">${hl(d.exampleEn,q)}</div><div class="zh">${hl(d.exampleZh,q)}</div></div>
+            ${d.note ? `<div class="note">💡 ${hl(d.note,q)}</div>` : ""}
+            <button class="say">🔊 朗读单词</button>
+            <a href="${v.url}" target="_blank" style="font-size:12px;color:var(--primary);text-decoration:none;margin-left:12px">▶ 去抖音看这条讲解</a>
           </div>`;
       }).join("");
-      det.innerHTML = `<td colspan="4">
-        ${blocks}
-        <div class="d-actions">
-          <button class="say-b">🔊 朗读单词</button>
-          <button class="mb ${isDone?"mastered":""}">${isDone?"✓ 已掌握":"标记掌握"}</button>
-        </div>
-      </td>`;
-      det.querySelector(".say-b").onclick = ()=> speak(w.word);
-      det.querySelector(".mb").onclick = ()=>{ done[w.word] ? delete done[w.word] : done[w.word]=1; save(); render(); };
+      det.innerHTML = `<td colspan="4">${blocks}</td>`;
+      det.querySelector(".say").onclick = e => { e.stopPropagation(); speak(w.word); };
       tb.appendChild(det);
     }
   }
 }
 
-document.getElementById("search").addEventListener("input", e=>{ query=e.target.value; render(); });
-document.querySelectorAll(".filters button").forEach(b=>{
-  b.onclick = ()=>{
-    document.querySelectorAll(".filters button").forEach(x=>x.classList.remove("active"));
-    b.classList.add("active"); filter=b.dataset.f; render();
-  };
+let timer = null;
+document.getElementById("search").addEventListener("input", e=>{
+  clearTimeout(timer);
+  timer = setTimeout(()=>{ query = e.target.value; render(); }, 120);
 });
 render();
 </script>
