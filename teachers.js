@@ -29,5 +29,25 @@ const TEACHERS = [
     name: "王哪写英语",
     url: "https://www.douyin.com/user/MS4wLjABAAAAcWp4MexoJ7NQd3txOpmSRXD7KnReaqEL4HSHk71hixzUkwenjEILv1VjRhe5ECDp",
     note: "单词速记 · 影视梗联想"
+  },
+  {
+    name: "莉雅老师",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAfpT8i3U01qTLy1GLuFvHScudRFgPPIgk_C9ZgcVv3wM",
+    note: "英语发音 · 音标纠音"
+  },
+  {
+    name: "剧会背单词",
+    url: "https://www.douyin.com/user/MS4wLjABAAAASvM33JVHDKPE6Xerk23YGBK37XH6ml98ptAUFFbZBSY",
+    note: "热剧配音 · 单词洗脑循环"
+  },
+  {
+    name: "大民不乐意学英语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAywvoZQmac5miXC6sn9dBUFWvm3J1AiIc6R1WyfuRSbQ",
+    note: "抽象情景剧 · 快乐英语"
+  },
+  {
+    name: "大腿麻了",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAB_8FH_76IWlJg-sZQjn_EwA_L2bF2Pb3UpfeTItn7wA",
+    note: "天津话课堂 · 搞笑学英语"
   }
 ];

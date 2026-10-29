@@ -60,6 +60,35 @@
 
   .table-scroll{overflow-x:auto}
 
+  /* 原文按钮 */
+  .scr-btn{font-size:11.5px;color:#5a6172;background:#eef1f5;border:none;border-radius:6px;
+    padding:3px 9px;cursor:pointer}
+  .scr-btn:hover{background:#dfe4ec;color:var(--ink)}
+
+  /* 原文弹窗 */
+  .mask{position:fixed;inset:0;background:rgba(22,24,35,.55);display:none;z-index:100;
+    align-items:center;justify-content:center;padding:16px}
+  .mask.show{display:flex}
+  .modal{background:#fff;border-radius:14px;max-width:680px;width:100%;max-height:82vh;
+    display:flex;flex-direction:column;overflow:hidden;box-shadow:0 12px 48px rgba(0,0,0,.25)}
+  .mhead{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;
+    justify-content:space-between;align-items:flex-start;gap:12px}
+  .mhead h4{font-size:15px;line-height:1.4}
+  .mhead .mmeta{font-size:12px;color:var(--muted);margin-top:4px}
+  .mclose{border:none;background:none;font-size:22px;line-height:1;cursor:pointer;color:var(--muted);padding:0 4px}
+  .mclose:hover{color:var(--ink)}
+  .mbody{padding:16px 20px 20px;overflow-y:auto;font-size:14px;line-height:1.9}
+  .mbody p{margin-bottom:9px;padding-left:26px;position:relative}
+  .mbody p .idx{position:absolute;left:0;color:#c3c7d0;font-size:11px;top:1px}
+  .mbody p.en{color:#2b2e3f}
+  .mbody p.zh{color:#3a3d4a}
+  .mbody mark{background:#ffe58f}
+  .mfoot{padding:10px 20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;
+    align-items:center;gap:10px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+  .mfoot a{color:var(--primary);text-decoration:none;font-weight:600}
+  .mfoot button{font-size:12px;padding:5px 11px;border-radius:8px;border:1px solid var(--line);
+    background:#fff;cursor:pointer;color:var(--muted)}
+
   /* 老师频道 */
   .tlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
   .titem{display:flex;justify-content:space-between;align-items:center;gap:10px;
@@ -107,6 +136,27 @@
     <div id="teacherList" class="tlist"></div>
   </section>
 </main>
+
+<!-- 原文弹窗 -->
+<div class="mask" id="mask">
+  <div class="modal">
+    <div class="mhead">
+      <div>
+        <h4 id="mTitle"></h4>
+        <div class="mmeta" id="mMeta"></div>
+      </div>
+      <button class="mclose" id="mClose">×</button>
+    </div>
+    <div class="mbody" id="mBody"></div>
+    <div class="mfoot">
+      <span>原文由视频语音自动转写整理，个别字词可能与原声有出入</span>
+      <div>
+        <button id="mCopy">复制全文</button>
+        <a id="mLink" href="#" target="_blank">▶ 看原视频</a>
+      </div>
+    </div>
+  </div>
+</div>
 <footer>
   本站为学习索引工具：仅收录文字化词条（释义/例句/笔记），视频版权归创作者所有，点击链接前往抖音原视频观看学习。<br>
   数据持续更新中 · 点表格行可展开音标、例句和笔记
@@ -229,9 +279,14 @@ function render(){
         ${w._parts.length > 1 ? `<div class="parts">${w._parts.map(p=>`<span data-p="${p}">${p}</span>`).join("")}</div>` : ""}
       </td>
       <td class="m">${hl(w.meaning,q)}</td>
-      <td class="s">${sumText}</td>
+      <td class="s">${sumText}
+        ${firstV.script ? `<div style="margin-top:5px"><button class="scr-btn" data-vid="${firstV.id}">📄 看原文（${firstV.script.length} 句）</button></div>` : ""}
+      </td>
       <td class="lk"><a href="${firstV.url}" target="_blank" onclick="event.stopPropagation()">▶ 观看</a></td>`;
     row.onclick = ()=>{ open ? expanded.delete(w.word) : expanded.add(w.word); render(); };
+    // 看原文按钮
+    const sb = row.querySelector(".scr-btn");
+    if(sb) sb.onclick = e => { e.stopPropagation(); openScript(sb.dataset.vid); };
     // 点拆分出的小词 → 直接用它搜索
     row.querySelectorAll(".parts span").forEach(sp=>{
       sp.onclick = e => {
@@ -289,6 +344,37 @@ document.getElementById("search").addEventListener("input", e=>{
     </a>`;
   }).join("");
 })();
+
+// —— 原文弹窗 ——
+function openScript(vid){
+  const v = VIDEOS[vid];
+  if(!v || !v.script) return;
+  const q = query.trim().toLowerCase();
+  document.getElementById("mTitle").textContent = "📄《" + v.title + "》";
+  document.getElementById("mMeta").textContent =
+    [v.author, v.date, v.script.length + " 句"].filter(Boolean).join(" · ");
+  document.getElementById("mBody").innerHTML = v.script.map(([lang, text], i)=>{
+    const cls = lang === "en" ? "en" : "zh";
+    return `<p class="${cls}"><span class="idx">${String(i+1).padStart(2,"0")}</span>${hl(text, q)}</p>`;
+  }).join("");
+  document.getElementById("mLink").href = v.url;
+  document.getElementById("mask").classList.add("show");
+  document.body.style.overflow = "hidden";
+}
+function closeScript(){
+  document.getElementById("mask").classList.remove("show");
+  document.body.style.overflow = "";
+}
+document.getElementById("mClose").onclick = closeScript;
+document.getElementById("mask").onclick = e => { if(e.target.id === "mask") closeScript(); };
+document.addEventListener("keydown", e => { if(e.key === "Escape") closeScript(); });
+document.getElementById("mCopy").onclick = () => {
+  const t = [...document.querySelectorAll("#mBody p")].map(p=>p.textContent.replace(/^\d{2}/,"").trim()).join("\n");
+  navigator.clipboard.writeText(t).then(()=>{
+    const b = document.getElementById("mCopy");
+    b.textContent = "✓ 已复制"; setTimeout(()=>b.textContent="复制全文", 1500);
+  });
+};
 
 render();
 </script>
