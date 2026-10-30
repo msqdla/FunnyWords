@@ -218,6 +218,91 @@ const VIDEOS = {
       ["en", "The next class is very crucial."],
       ["zh", "为啥？因为你们罗校长又要来听课了。所以下节课谁都不许说天津话——就一节课，让他听完赶紧走。行了，收拾收拾桌子，下课。"]
     ]
+  },
+  "7694993605581064955": {
+    id: "7694993605581064955",
+    title: "自然拼读记单词：认识 -ple，一记就记一批",
+    url: "https://www.douyin.com/video/7694993605581064955",
+    date: "2026-10-10",
+    author: "夏夏不温柔（学英语版）",
+    summary: "认识「-ple」这个结尾，一批单词一起拿下：apple 苹果、people 人们、purple 紫色的、couple 情侣、simple 简单的、sample 样品、temple 寺庙、example 例子——词族记忆法。",
+    script: [
+      ["zh", "自然拼读（记单词）——ple。"],
+      ["zh", "如果你知道「ple」怎么读，那这一批单词你就都会了。"],
+      ["zh", "apple 苹果、people 人们、purple 紫色的、couple 情侣。"],
+      ["zh", "simple 简单的、sample 样品、temple 寺庙、example 例子。"]
+    ]
+  },
+  "7496800012475583771": {
+    id: "7496800012475583771",
+    title: "缪斯女神 muse，一串记六个词",
+    url: "https://www.douyin.com/video/7496800012475583771",
+    date: "2025-04-24",
+    author: "曲艺老师教英语",
+    summary: "词根法：muse 是希腊神话掌管艺术的缪斯女神 → music 音乐 → musical 音乐的 → musician 音乐家 → museum 博物馆（-um 放东西的地方）→ amuse 逗乐 → amusement 娱乐。背一串顶一打。（视频后半是词汇书推广）",
+    script: [
+      ["zh", "muse 是谁啊？muse 是掌管希腊神话的缪斯女神，所以它引申出来的词根就是「艺术」。"],
+      ["zh", "music = muse + ic（后缀），掌管艺术的本身就是音乐——所以是「音乐」。"],
+      ["zh", "musical = music + al（形容词后缀，表示「的」）——「音乐的」。"],
+      ["zh", "musician = music + ian（人的后缀）——研究/搞音乐的人，「音乐家」。"],
+      ["zh", "museum = muse + um（地点后缀）——把艺术品全都放在的一个地点，「博物馆」。"],
+      ["zh", "amuse = a-（使动前缀，表示「使得」）+ muse——通过艺术让你快乐，「逗乐、使娱乐」。"],
+      ["zh", "amusement = amuse + ment（名词后缀）——「娱乐」。"],
+      ["zh", "你会发现我背单词记得特别牢，因为我一背就背一串。（后面是词汇书推广）"]
+    ]
+  },
+  "7512377259924278579": {
+    id: "7512377259924278579",
+    title: "听神话故事，记英语单词！花神 Flora！",
+    url: "https://www.douyin.com/video/7512377259924278579",
+    date: "2025-06-05",
+    author: "曲艺老师教英语",
+    summary: "词源法：Flora 是古罗马神话的花神，词根 flor- = 花 → flower 花 → floral 花的 → florist 花商 → flourish 像花一样绽放 = 繁荣，还有 sunflower 向日葵。一个神话带走一串词。",
+    script: [
+      ["zh", "Flora 是谁呢？是古罗马神话当中的花神。"],
+      ["zh", "很多妈妈给女孩起名都叫 Flora，就是「花」，希望孩子像鲜花一样美丽。"],
+      ["zh", "这个花神给我们带来很多单词。第一个是小学词汇：flower，「花」。"],
+      ["zh", "flower/flor 加上形容词后缀 al（表示「的」）——floral，「花的、花卉的」。"],
+      ["zh", "flor 加上人的后缀 ist——florist，经常经营花的那个人，「花商、花店店主」。"],
+      ["zh", "flor 加上动词后缀 ish（使你像花一样绽放）——flourish，「繁荣、蓬勃发展」。"],
+      ["zh", "还有一个词也来自「花」：像着太阳的那个花——sunflower，「向日葵」。"]
+    ]
+  },
+  "7489421073344187657": {
+    id: "7489421073344187657",
+    title: "陕北话中的英文单词 第三弹",
+    url: "https://www.douyin.com/video/7489421073344187657",
+    date: "2025-04-04",
+    author: "椰汁鱼（月更都费劲版",
+    summary: "反差搞笑：陕北方言谐音居然暗合英文名——Daily 逮力（根本）、Hudson、Caleb、Louis、Vienna 喂爷哪（外公哪去了）。方言玩梗顺便记个 Vienna（维也纳）。",
+    script: [
+      ["en", "Actually, there's a lot of English names in 陕北话。（陕北话里藏着好多英文名）"],
+      ["zh", "第一个 Daily 逮力（根本）——他根本（逮力）也不会弄这些。"],
+      ["zh", "第二个 Hudson ——怕恨事你全湿透啦。"],
+      ["zh", "第三个 Caleb ——叼的活不离手。"],
+      ["zh", "第四个 Louis ——出门拿那么大个包，背着人不？"],
+      ["zh", "第五个 Vienna 喂爷哪（外公哪去了）——你外公哪去了？"]
+    ]
+  },
+  "7309824740489727270": {
+    id: "7309824740489727270",
+    title: "零基础就这样学英语！（自然拼读拼出 backflip）",
+    url: "https://www.douyin.com/video/7309824740489727270",
+    date: "2023-12-07",
+    author: "MrYang 杨家成🔥",
+    summary: "情景短剧：用「组合音」ack / fla / ip 三步拼出 backflip（后空翻）——自然拼读把长单词拆成小块，加上拼音里就会的 b，零基础也能拼出来。",
+    script: [
+      ["zh", "这个单字你会读吗？不会？那你肯定是零基础。来，我现在教你自然拼读，学员马上会。"],
+      ["zh", "你每次都这么说啦，我在讲课呢。"],
+      ["zh", "我先教你几个组合音——组合音是 26 个字母的升级版。第一个，跟着我读：ack。fla。ip。"],
+      ["zh", "你这个跟音标有什么区别啊？这个肯定不一样啊——除了我们跟俄罗斯之外，全世界都在学自然拼读。记住没？再来一遍：ack、fla、ip。"],
+      ["zh", "来，回到刚才那个单词，3、2、1——backflip！"],
+      ["zh", "这个 b 没教哦？这个 b 还需要学吗？这个 b 在拼音里面，拼音怎么读？b！你看！"],
+      ["zh", "开始拼读：1 是什么？b。1 跟 2 黏在一起怎么读？简单不？"],
+      ["zh", "3 是什么？fla。4 呢？ip。3 跟 4 黏在一起怎么读？有没有简单？"],
+      ["zh", "好像不是所有单词都能这么搞吧？这个是基础，不学的话你怎么背单词？"],
+      ["zh", "这个单字怎么读？backflip，没错啦！厉害吧？在哪学呀？在我直播间，每天都有教。"]
+    ]
   }
 };
 
@@ -444,6 +529,12 @@ const WORDS = [
         exampleEn: "Phonics can teach you the relationship between sounds and their letters.",
         exampleZh: "自然拼读能教你声音和字母之间的对应关系。",
         note: "实用但不是万能：英语拼写例外很多（如 good 的 oo），一个字母多种读音、一个音多种拼法都存在，所以拼读之外还要多听真人口音。"
+      },
+      {
+        videoId: "7309824740489727270",
+        exampleEn: "ack + fla + ip → backflip",
+        exampleZh: "组合音是 26 个字母的升级版，拼读像拼拼音一样简单。",
+        note: "杨家成情景剧演示：把长单词拆成组合音（ack、fla、ip），三步拼出 backflip（后空翻）。"
       }
     ]
   },
@@ -500,6 +591,160 @@ const WORDS = [
         exampleEn: "The next class is very crucial.",
         exampleZh: "下节课非常关键（校长要来听课）。",
         note: "比 important 程度更重，常用搭配 crucial for / to sth（对……至关重要）。视频里的例子很形象：校长来听课，这节课就 crucial 了。"
+      }
+    ]
+  },
+  {
+    word: "couple",
+    pos: "名词",
+    ipa: "/ˈkʌpl/",
+    meaning: "情侣；一对（夫妇）；两个，几个",
+    details: [
+      {
+        videoId: "7694993605581064955",
+        exampleEn: "They are a lovely couple.",
+        exampleZh: "他们是一对可爱的情侣。",
+        note: "-ple 词族一员：apple、people、purple、couple、simple、sample、temple、example。a couple of 表示「两三个、几个」。"
+      }
+    ]
+  },
+  {
+    word: "temple",
+    pos: "名词",
+    ipa: "/ˈtempl/",
+    meaning: "寺庙，庙宇；太阳穴",
+    details: [
+      {
+        videoId: "7694993605581064955",
+        exampleEn: "We visited an old temple.",
+        exampleZh: "我们参观了一座古寺庙。",
+        note: "-ple 词族：和 apple、people、purple、couple、simple、sample、example 一起记，认识 -ple 的读音就一批全拿下。"
+      }
+    ]
+  },
+  {
+    word: "example",
+    pos: "名词",
+    ipa: "/ɪɡˈzɑːmpl/",
+    meaning: "例子，实例；榜样",
+    details: [
+      {
+        videoId: "7694993605581064955",
+        exampleEn: "Can you give me an example?",
+        exampleZh: "你能给我举个例子吗？",
+        note: "高频搭配 for example（例如）。-ple 词族压轴词：apple 苹果 → people 人们 → purple 紫色 → couple 情侣 → simple 简单 → sample 样品 → temple 寺庙 → example 例子。"
+      }
+    ]
+  },
+  {
+    word: "museum",
+    pos: "名词",
+    ipa: "/mjuˈziːəm/",
+    meaning: "博物馆",
+    details: [
+      {
+        videoId: "7496800012475583771",
+        exampleEn: "We went to the museum last weekend.",
+        exampleZh: "我们上周末去了博物馆。",
+        note: "词根记忆：muse（缪斯女神，掌管艺术）+ -um（地点后缀）= 放艺术品的地方 → 博物馆。同族词：music、musical、musician、amuse。"
+      }
+    ]
+  },
+  {
+    word: "amuse",
+    pos: "动词",
+    ipa: "/əˈmjuːz/",
+    meaning: "逗乐，使娱乐",
+    details: [
+      {
+        videoId: "7496800012475583771",
+        exampleEn: "The story amused the children.",
+        exampleZh: "这个故事把孩子们逗乐了。",
+        note: "a-（使动前缀）+ muse（缪斯，艺术）= 用艺术让你快乐 → 逗乐。名词 amusement（娱乐，消遣）；形容词 amusing（好笑的，有趣的）。"
+      }
+    ]
+  },
+  {
+    word: "floral",
+    pos: "形容词",
+    ipa: "/ˈflɔːrəl/",
+    meaning: "花的，花卉的；印着花的",
+    details: [
+      {
+        videoId: "7512377259924278579",
+        exampleEn: "She wore a floral dress.",
+        exampleZh: "她穿了一条碎花裙子。",
+        note: "词根 flor- = 花（来自花神 Flora）。flor + -al（形容词后缀「的」）= 花的。同族：flower、florist、flourish。"
+      }
+    ]
+  },
+  {
+    word: "florist",
+    pos: "名词",
+    ipa: "/ˈflɒrɪst/",
+    meaning: "花商；花店店主",
+    details: [
+      {
+        videoId: "7512377259924278579",
+        exampleEn: "I bought roses from the florist.",
+        exampleZh: "我在花店买了玫瑰。",
+        note: "flor（花）+ -ist（做某事的人）= 经营花的人 → 花商。同缀词：artist（艺术家）、scientist（科学家）。"
+      }
+    ]
+  },
+  {
+    word: "flourish",
+    pos: "动词",
+    ipa: "/ˈflʌrɪʃ/",
+    meaning: "繁荣，蓬勃发展；茁壮成长",
+    details: [
+      {
+        videoId: "7512377259924278579",
+        exampleEn: "The business is flourishing.",
+        exampleZh: "生意蒸蒸日上。",
+        note: "flor（花）+ -ish（动词后缀）= 像鲜花一样绽放 → 繁荣、兴旺。神话记忆：花神 Flora 的祝福下，万物 flourish。"
+      }
+    ]
+  },
+  {
+    word: "Vienna",
+    pos: "名词（专有名词）",
+    ipa: "/viˈenə/",
+    meaning: "维也纳（奥地利首都，音乐之都）",
+    details: [
+      {
+        videoId: "7489421073344187657",
+        exampleEn: "Vienna is famous for its music.",
+        exampleZh: "维也纳以音乐闻名。",
+        note: "陕北话「喂爷哪（外公哪去了）」的谐音就是 Vienna——方言玩梗记地名。维也纳金色大厅新年音乐会就在这座城市。"
+      }
+    ]
+  },
+  {
+    word: "backflip",
+    pos: "名词",
+    ipa: "/ˈbækflɪp/",
+    meaning: "后空翻",
+    details: [
+      {
+        videoId: "7309824740489727270",
+        exampleEn: "He did a backflip on the mat.",
+        exampleZh: "他在垫子上翻了个后空翻。",
+        note: "拆字：back（向后）+ flip（翻转）= 后空翻。杨家成用自然拼读组合音 ack + fla + ip 三步把它拼出来——长单词拆成小块就不怕。"
+      }
+    ]
+  },
+  {
+    word: "flip",
+    pos: "动词 / 名词",
+    ipa: "/flɪp/",
+    meaning: "翻转，快速翻动；（空）翻",
+    details: [
+      {
+        videoId: "7309824740489727270",
+        exampleEn: "Flip the pancake over.",
+        exampleZh: "把煎饼翻个面。",
+        note: "backflip 的核心词。常见搭配 flip a coin（抛硬币决定）、flip through（快速翻阅）。手机翻盖手机叫 flip phone。"
       }
     ]
   }

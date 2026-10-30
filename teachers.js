@@ -49,5 +49,25 @@ const TEACHERS = [
     name: "大腿麻了",
     url: "https://www.douyin.com/user/MS4wLjABAAAAB_8FH_76IWlJg-sZQjn_EwA_L2bF2Pb3UpfeTItn7wA",
     note: "天津话课堂 · 搞笑学英语"
+  },
+  {
+    name: "夏夏不温柔（学英语版）",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA4Dn8YWZeF4SGOIe7nBFWzpOdtiOSjkh2NIFBrAYJGaY",
+    note: "自然拼读 · 词族速记"
+  },
+  {
+    name: "曲艺老师教英语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAxxvnl8PkFgBFxUhIwJHvKL3cDfBynDbpuBCQN8MIkN8",
+    note: "词根词缀 · 神话记单词"
+  },
+  {
+    name: "椰汁鱼（月更都费劲版",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAvW1iYrBo4P_u8dNxpHK-6u9tGAP0cxVZcNKXTdqfznmcpJ9py0q-0QnzINi1VwSb",
+    note: "方言梗 · 英语趣配音"
+  },
+  {
+    name: "MrYang 杨家成🔥",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAuyURLEHBlHsyEXQY3t8eqOLBNlvecSR180vBVEf9uMQ",
+    note: "情景短剧 · 自然拼读"
   }
 ];
