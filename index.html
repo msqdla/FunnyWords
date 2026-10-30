@@ -100,8 +100,61 @@
   .titem .go{font-size:12px;color:var(--primary);white-space:nowrap;font-weight:600}
 
   @media(max-width:640px){
-    table{min-width:640px}
     h1{font-size:17px}
+    header{padding:10px 14px}
+    #search{font-size:16px;padding:11px 14px}   /* 16px 防止 iOS 聚焦自动放大 */
+    main{margin-top:10px}
+
+    /* —— 表格变卡片：告别横向滚动 —— */
+    .table-wrap{background:transparent;border:none;border-radius:0;overflow:visible}
+    .table-scroll{overflow:visible}
+    table{min-width:0}
+    thead{display:none}
+    table,tbody,tr,td{display:block;width:100%}
+    tbody tr.row{background:var(--card);border:1px solid var(--line);border-radius:12px;
+      margin-bottom:10px;padding:12px 14px}
+    tbody td{padding:0;border-bottom:none}
+    tbody td + td{margin-top:9px}
+    .w{white-space:normal;word-break:break-all;font-size:17px}
+    .w .n{vertical-align:2px}
+    td.m::before{content:"大意";display:block;font-size:11px;color:var(--muted);margin-bottom:2px;font-weight:600}
+    td.s::before{content:"视频讲解";display:block;font-size:11px;color:var(--muted);margin-bottom:2px;font-weight:600}
+    .m{min-width:0}
+    .s{font-size:13px}
+    .lk{margin-top:2px}
+    .lk a{display:inline-block;padding:7px 16px;border:1px solid #ffd0da;background:#fff5f7;
+      border-radius:8px;font-size:14px}
+    .scr-btn{font-size:12.5px;padding:6px 12px}
+    tbody tr.row:hover{background:var(--card)}
+
+    /* 展开详情卡片 */
+    tr.detail{margin:-5px 0 10px}
+    tr.detail>td{background:#fff;border:1px solid var(--line);border-radius:12px;
+      padding:12px 14px 14px;margin:0 0 10px}
+
+    /* 原文弹窗：手机上近全屏、大按钮 */
+    .mask{padding:0}
+    .modal{max-height:94vh;border-radius:14px 14px 0 0;align-self:flex-end;max-width:100%}
+    .mask.show{align-items:flex-end}
+    .mhead{padding:13px 16px}
+    .mclose{font-size:26px;padding:2px 8px}
+    .mbody{padding:12px 16px 16px;font-size:14.5px}
+    .mbody p{padding-left:24px}
+    .mfoot{padding:10px 14px;flex-direction:column;align-items:stretch;gap:8px}
+    .mfoot>div{display:flex;gap:10px}
+    .mfoot>div>*{flex:1;text-align:center;padding:10px 0;font-size:14px}
+
+    /* 老师频道单列 + 更大点击区 */
+    .tlist{grid-template-columns:1fr}
+    .titem{padding:14px 15px}
+
+    footer{margin-top:16px}
+  }
+  /* 桌面窄窗口折中：641~760px 略缩 */
+  @media(min-width:641px) and (max-width:760px){
+    table{font-size:13px}
+    thead th,tbody td{padding:10px 10px}
+    .w{font-size:15px}
   }
 </style>
 </head>
