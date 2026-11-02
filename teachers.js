@@ -94,5 +94,35 @@ const TEACHERS = [
     name: "飞凡满分英语",
     url: "https://www.douyin.com/user/MS4wLjABAAAARkJBHKXp_jmSRmOnoCV--WSCci2jo_CtKH9NitAJWrNOinJwcwTebFxhUvamT-Em",
     note: "词汇本意 · 趣味英语"
+  },
+  {
+    name: "章章（英语学习中～）",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA65HDagViY50sY2OA-SI960CzkavbtCODKOVOSBssDDxZuw42UhFoJvERHRBejTDh",
+    note: "口语交流 · 一词多义"
+  },
+  {
+    name: "Mina 学英语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAANheSGV3nMOLAHnqFBATg0FybemipaiuDgFsDYJBKRxA",
+    note: "对话练习 · 单复数辨析"
+  },
+  {
+    name: "黑马王子",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAzUU3HooqdumZ7rx9zKz7gSgjD3vmbovB0IUOJIsREUyWiDTUz2yrOARrTaQOhcnh",
+    note: "长期主义 · 学习路线规划"
+  },
+  {
+    name: "史瑞杰谈英语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA-Ui1c9V7a0JE7WCrgBP_a8SEv2A7wiU6qeDCC-Gb7duVJWMEuGTWdOcVRo78ir1m",
+    note: "从句本意 · 拒绝死记硬背"
+  },
+  {
+    name: "大天使英语 icey",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAupmIxGLW9W3GZZmVRXT4WX5LzvHvbCM1WGxBOq8JRwQ",
+    note: "听力口语 · 正确发音"
+  },
+  {
+    name: "English老儿",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAFjbhePkj3SQAPDzkLHYM-XRnnj5mHUx_LmXG0Yr2enEywdYbXVdigRTeTSuW04gV",
+    note: "洗脑节奏 · 基础语法"
   }
 ];

@@ -377,6 +377,151 @@ const VIDEOS = {
       ["zh", "那 open 呢？open 的含义是「移除障碍、新建通道」：开门、开窗、开酒瓶。"],
       ["zh", "开灯如果用 open，老外会觉得你要打开外壳、准备修理一下灯。"]
     ]
+  },
+  "7703174805227632634": {
+    id: "7703174805227632634",
+    title: "“fire”快给我整 fire 了",
+    url: "https://www.douyin.com/video/7703174805227632634",
+    date: "2026-11-01",
+    author: "章章（英语学习中～）",
+    summary: "fire 一词多义复习：fired 被炒鱿鱼、fired up 状态好/兴奋、under fire 被批评——同一个 fire，搭配一换意思全变。",
+    script: [
+      ["zh", "朋友们，fire 这个单词怎么这么多意思？我快疯了。"],
+      ["en", "OK, so let me see if I understand. —— 好的，现在检测一下我是否明白。"],
+      ["en", "Right. —— 对吧。"],
+      ["en", "“I'm fired.” —— 我被炒鱿鱼了。"],
+      ["en", "“I'm fired up” — it means I'm doing really well. 这意味着我做得很好。"],
+      ["en", "It means you're excited. —— 这意味着你很兴奋。"],
+      ["en", "“You are fired up.”"],
+      ["en", "And “under fire” means people are criticizing you. —— 人们在批评你。"],
+      ["en", "So what does “fire” actually mean? —— 那么 fire 到底是什么意思？"]
+    ]
+  },
+  "7696914922513229750": {
+    id: "7696914922513229750",
+    title: "我喜欢狗怎么说？",
+    url: "https://www.douyin.com/video/7696914922513229750",
+    date: "2026-10-15",
+    author: "Mina 学英语",
+    summary: "I like dog 的意思是你喜欢吃狗肉！喜欢动物本身要用复数 I like dogs——名词单复数在英语里是「两种东西」。",
+    script: [
+      ["zh", "「我喜欢狗」怎么说？I like dog？不对！"],
+      ["zh", "如果你说 I like dog，这个意思是你喜欢吃狗肉。"],
+      ["zh", "如果喜欢吃羊肉，可以说 I like mutton；喜欢吃兔肉，可以说 I like rabbit。"],
+      ["zh", "在英语里，喜欢的是动物本身，你应该用复数。"],
+      ["zh", "那「我喜欢狗」怎么说？—— I like dogs. Great！"],
+      ["zh", "那「我喜欢兔」怎么说？—— I like rabbits. Great！"]
+    ]
+  },
+  "7703210489707153898": {
+    id: "7703210489707153898",
+    title: "学英语是一件长期并且有执行力的事",
+    url: "https://www.douyin.com/video/7703210489707153898",
+    date: "2026-11-01",
+    author: "黑马王子",
+    summary: "目标雅思 7 分的四阶段路线图：①打底 3000 词（新概念1-3）②进阶 5000 词（+走遍美国、BBC）③雅思入门 7000-8000 词（题型+真题）④冲刺（全套真题+模考+写作批改）。",
+    script: [
+      ["zh", "想学好英语很简单——它是一个需要长期、需要执行力的事儿。我的目标是雅思 7 分或 7.5 分，所以我让 AI 给我制定了一个学习计划，分四个阶段。"],
+      ["zh", "第一阶段打底：词汇量 3000 词左右，学完新概念 1-3 册——注意，新概念仅仅是个打底阶段；每天练听力、口语、阅读、写作。"],
+      ["zh", "第二阶段进阶：新概念 1-3 册加《走遍美国》，听 BBC 听力，每天练口语和阅读；词汇量积累到 5000 词左右。"],
+      ["zh", "第三阶段雅思入门：词汇量 7000-8000 词，熟悉雅思题型，做雅思真题，提升做题技巧。"],
+      ["zh", "第四阶段冲刺：做全套真题，模拟真实考试，让老师批改写作。"],
+      ["zh", "现在学新概念的同学，说白了仅仅是在打底，距离考雅思还有很长的路要走——所以需要坚持，坚持下去，继续学习。"]
+    ]
+  },
+  "7701604581146414378": {
+    id: "7701604581146414378",
+    title: "带你彻底理解什么叫做英语从句",
+    url: "https://www.douyin.com/video/7701604581146414378",
+    date: "2026-10-28",
+    author: "史瑞杰谈英语",
+    summary: "从句的本质是「自问自答」：That is the one.（哪个？Which one?）我喜欢的那格 → That is the one which I like。从句就是把别人的潜在疑问省略后、直接作出的回答。",
+    script: [
+      ["zh", "国内学英语靠死记硬背：一容易导致厌学，二本质上是闭门造车。我们来看怎么「有机地」理解从句。"],
+      ["zh", "我说 That is the one——「就是那个」。别人是不是不知道我说的是哪个？他就会问：Which one——哪个？"],
+      ["zh", "然后我进一步回答：Which I like——「我喜欢的那格」。完整对话就是：就是那个→哪个？→我喜欢的那格。"],
+      ["zh", "这就是从句的来历和原理：把别人的疑问忽略了，直接自问自答。That is the one which I like. 明白没？"],
+      ["zh", "再看一遍：Mom, did you see the phone?（你看到手机了吗）妈妈不知道是哪台，反问 Which phone?（哪台？）"],
+      ["zh", "孩子回答：The phone which I left on the table——「我落在桌上的那台手机」。其实这里连 the phone 都不用重复，直接说 which I left on the table 就行。"],
+      ["zh", "把孩子的前后句连起来：the phone + which I left on the table = 一个完整从句——跳过了妈妈的疑问，直接回答了妈妈的潜在疑问。"],
+      ["zh", "所以从句本质上是主句在回答一个疑问。以后看到英语从句，你就知道它为什么是这样。"]
+    ]
+  },
+  "7672324746943401242": {
+    id: "7672324746943401242",
+    title: "原来真不是我笨，换个方式教我醍醐灌顶",
+    url: "https://www.douyin.com/video/7672324746943401242",
+    date: "2026-08-10",
+    author: "五三英语木老舅",
+    summary: "一句话记八大时态：你妈天天揍你（一般现在）、昨天揍了你（过去）、一会要揍（将来）、正在揍（进行）、昨晚9点正揍（过去进行）、揍完了（完成）、上学前就揍完（过去完成）、昨天说要揍（过去将来）。",
+    script: [
+      ["zh", "你妈天天揍你——这就是一般现在时。"],
+      ["zh", "昨天你妈揍了你——一般过去时。你妈一会要揍你——一般将来时。"],
+      ["zh", "你妈正在揍你——现在进行时。昨晚9点你妈正在揍你——过去进行时。"],
+      ["zh", "你妈已经揍完你了——现在完成时。上学前你妈就已经揍完你了——过去完成时。"],
+      ["zh", "昨天你妈说要揍你——过去将来时。再学不会，回家挨揍去！"]
+    ]
+  },
+  "7585498405812620587": {
+    id: "7585498405812620587",
+    title: "一节课学 20 单词太容易了",
+    url: "https://www.douyin.com/video/7585498405812620587",
+    date: "2025-12-19",
+    author: "五三英语木老舅",
+    summary: "谐音拆字连发七词：dog eat dog 自相残杀、single dog 单身狗、manage 男人上年纪要管理自己、greenhouse 温室、lucky money 压岁钱、ladylike 优雅、lovesick 相思病。",
+    script: [
+      ["zh", "dog 狗，eat 吃，dog 还是狗——dog eat dog，狗咬狗，自相残杀。"],
+      ["zh", "single 单个的，dog 狗——single dog，单身狗。"],
+      ["zh", "man 男人，age 年纪——manage：男人上了年纪就得管理好自己，所以 manage 是「管理」。"],
+      ["zh", "green 绿色，house 房子——房子里种的全是绿色植物，greenhouse，「温室」。"],
+      ["zh", "lucky 幸运的，money 钱——lucky money，压岁钱。"],
+      ["zh", "lady 淑女，like 像——ladylike，像淑女一样，「优雅端庄的」。"],
+      ["zh", "love 爱，sick 病——lovesick，因爱而得病，「相思病」。"]
+    ]
+  },
+  "7438256381255339300": {
+    id: "7438256381255339300",
+    title: "英语说的像母语一样，原来是在这里学的！",
+    url: "https://www.douyin.com/video/7438256381255339300",
+    date: "2024-11-17",
+    author: "大天使英语 icey",
+    summary: "听力就是口语：单词发音学错了，你只能听懂错的英语。then 的 /ð/ 舌尖轻触，any other 连读带出鼻音，on earth 连读——把读对的词连起来，听力自然通。",
+    script: [
+      ["zh", "朋友们记住一个点：听力就是口语。如果你的单词学的是错的，那你只能听懂错的英语。"],
+      ["zh", "这个词你学的是 /zen/？正确读音是 then——舌尖轻轻碰一下牙齿。"],
+      ["zh", "then any other——有人说舌头不灵巧转不过来？其实你念 any other 的时候照样有这个音，你从小练了十几年，读对了词自然能连起来。"],
+      ["zh", "on earth 也要连读：person on earth。"],
+      ["en", "I love my dog more than any other person on earth."],
+      ["zh", "再听这个句子——「我爱我的狗胜过世上任何人」。请学正确的英语。"]
+    ]
+  },
+  "7574060932885441652": {
+    id: "7574060932885441652",
+    title: "be 动词变形洗脑歌",
+    url: "https://www.douyin.com/video/7574060932885441652",
+    date: "2025-11-18",
+    author: "English老儿",
+    summary: "I am / You are / He is… 现在时一套，I was / You were… 过去时一套，配上「was wa was」的节奏——用 Rap 的感觉把 be 动词变形刻进肌肉记忆。",
+    script: [
+      ["en", "I am. You are. It is. He is. She is. We are. They are."],
+      ["en", "I was. You were. It was. He was. She was. We were. They were."],
+      ["en", "Was wa was, was wa wa…（跟着节奏念三遍）"]
+    ]
+  },
+  "7397295409426631962": {
+    id: "7397295409426631962",
+    title: "英语小白怎么开始学？",
+    url: "https://www.douyin.com/video/7397295409426631962",
+    date: "2024-07-30",
+    author: "MrYang 杨家成🔥",
+    summary: "小白第一步学「组合音」：an 读三遍，plan 直接拼出来；一个组合音能带出 plan/pan/tan/can 一千多个同类词，而组合音总共只有一百多个。",
+    script: [
+      ["zh", "这个单词怎么背？不会？你会读了吗？不会读你怎么背啊？——那教你一个方法，这是小白学英语的第一步：组合音。"],
+      ["zh", "很简单，跟我读三遍：an、an、an。记住了？回到刚才那个不会读的单词，3、2、1——plan！"],
+      ["zh", "如果这个组合音读 an，那这个单词就读 plan。简单吧？"],
+      ["zh", "刚学了一个组合音，周边的单词你都能读出来：pan、tan、can、plan——都对啦！"],
+      ["zh", "总结：每学一个组合音，都能背一千多个同类型单词，而这种组合音只有一百多个。"]
+    ]
   }
 };
 
@@ -931,6 +1076,160 @@ const WORDS = [
         exampleEn: "Open the door / the window / the bottle.",
         exampleZh: "开门／开窗／开酒瓶。",
         note: "本意是「移除障碍、新建通道」——门、窗、书、盒子、酒瓶用 open。开灯别说 open the light，老外以为你要拆灯壳修理。"
+      }
+    ]
+  },
+  {
+    word: "fire",
+    pos: "名词 / 动词",
+    ipa: "/ˈfaɪər/",
+    meaning: "火；解雇；开火；（俚）超棒",
+    details: [
+      {
+        videoId: "7703174805227632634",
+        exampleEn: "I'm fired. / I'm fired up. / He's under fire.",
+        exampleZh: "我被炒了。／我状态正猛。／他正被众人口诛笔伐。",
+        note: "一词多义：get fired 被炒鱿鱼；fired up 兴奋、状态很好；under fire 被批评、受攻击；俚语 That cast is fire（这个阵容绝了）。搭配一换，意思全变。"
+      }
+    ]
+  },
+  {
+    word: "mutton",
+    pos: "名词",
+    ipa: "/ˈmʌtn/",
+    meaning: "羊肉",
+    details: [
+      {
+        videoId: "7696914922513229750",
+        exampleEn: "I like mutton.",
+        exampleZh: "我喜欢吃羊肉。",
+        note: "I like dog（单数）= 喜欢吃狗肉！喜欢动物本身要说复数 I like dogs。同理「吃肉」类词常是不可数：mutton 羊肉、pork 猪肉、beef 牛肉。"
+      }
+    ]
+  },
+  {
+    word: "which",
+    pos: "关系代词 / 疑问代词",
+    ipa: "/wɪtʃ/",
+    meaning: "哪个；（引导从句）那个、那些",
+    details: [
+      {
+        videoId: "7701604581146414378",
+        exampleEn: "That is the one which I like. = That is the one. + Which one? + Which I like.",
+        exampleZh: "那就是我喜欢的那一个。",
+        note: "从句的本质是「自问自答」：先说 That is the one，对方心里冒出 Which one?，你再补一句 which I like 回答它——两句拼起来就是从句。"
+      }
+    ]
+  },
+  {
+    word: "dog eat dog",
+    pos: "习语",
+    ipa: "/dɒɡ iːt dɒɡ/",
+    meaning: "狗咬狗；残酷竞争、弱肉强食",
+    details: [
+      {
+        videoId: "7585498405812620587",
+        exampleEn: "It's a dog-eat-dog world in this industry.",
+        exampleZh: "这个行业就是弱肉强食。",
+        note: "拆字：dog（狗）+ eat（吃）+ dog（狗）。形容词用法要加连字符：a dog-eat-dog world / competition。"
+      }
+    ]
+  },
+  {
+    word: "greenhouse",
+    pos: "名词",
+    ipa: "/ˈɡriːnhaʊs/",
+    meaning: "温室，暖房",
+    details: [
+      {
+        videoId: "7585498405812620587",
+        exampleEn: "We grow tomatoes in a greenhouse.",
+        exampleZh: "我们在温室里种西红柿。",
+        note: "green（绿色）+ house（房子）= 房子里种满绿色植物 → 温室。高频搭配 greenhouse effect（温室效应）、greenhouse gas（温室气体）。"
+      }
+    ]
+  },
+  {
+    word: "lucky money",
+    pos: "名词短语",
+    ipa: "/ˈlʌki ˈmʌni/",
+    meaning: "压岁钱",
+    details: [
+      {
+        videoId: "7585498405812620587",
+        exampleEn: "Kids get lucky money at Spring Festival.",
+        exampleZh: "孩子们过年收压岁钱。",
+        note: "lucky（幸运的）+ money（钱）= 带来好运的钱 → 压岁钱。也说 lucky money in red envelopes（红包里的压岁钱）。"
+      }
+    ]
+  },
+  {
+    word: "ladylike",
+    pos: "形容词",
+    ipa: "/ˈleɪdilaɪk/",
+    meaning: "优雅端庄的，淑女的",
+    details: [
+      {
+        videoId: "7585498405812620587",
+        exampleEn: "She spoke in a ladylike manner.",
+        exampleZh: "她说话举止优雅。",
+        note: "lady（淑女）+ like（像）= 像淑女一样 → 优雅端庄。同类构词：doglike（忠诚如犬）、childlike（天真如孩童）。"
+      }
+    ]
+  },
+  {
+    word: "lovesick",
+    pos: "形容词",
+    ipa: "/ˈlʌvsɪk/",
+    meaning: "害相思病的，为爱憔悴的",
+    details: [
+      {
+        videoId: "7585498405812620587",
+        exampleEn: "He is lovesick after she left.",
+        exampleZh: "她走后他害了相思病。",
+        note: "love（爱）+ sick（病）= 因爱而得病 → 相思病。同类构词：homesick（想家的）、seasick（晕船的）、carsick（晕车的）。"
+      }
+    ]
+  },
+  {
+    word: "manage",
+    pos: "动词",
+    ipa: "/ˈmænɪdʒ/",
+    meaning: "管理；设法做到",
+    details: [
+      {
+        videoId: "7585498405812620587",
+        exampleEn: "Manage your time well.",
+        exampleZh: "管理好你的时间。",
+        note: "拆字记忆：man（男人）+ age（年纪）——男人上了年纪就得管理好自己。另一个高频用法：manage to do sth（设法做成某事）。"
+      }
+    ]
+  },
+  {
+    word: "on earth",
+    pos: "短语",
+    ipa: "/ɒn ɜːθ/",
+    meaning: "（加强语气）究竟，到底；在世上",
+    details: [
+      {
+        videoId: "7438256381255339300",
+        exampleEn: "I love my dog more than any other person on earth.",
+        exampleZh: "我爱我的狗胜过世上任何人。",
+        note: "字面「在地球上」→ 引申「世上（没有人/东西）」；放进疑问词后变成加强语气：What on earth do you want?（你到底想要什么？）注意 earth 与 any other、person 的连读。"
+      }
+    ]
+  },
+  {
+    word: "was",
+    pos: "动词（be 过去式）",
+    ipa: "/wɒz/",
+    meaning: "is/am 的过去式（我/他/她/它曾……）",
+    details: [
+      {
+        videoId: "7574060932885441652",
+        exampleEn: "I was. You were. He was. She was. It was. We were. They were.",
+        exampleZh: "be 动词过去时全家福：单数用 was（I/he/she/it），复数和 you 用 were。",
+        note: "视频用「was wa was」节奏洗脑：现在时 I am / You are / He is，过去时 I was / You were / He was——跟着原视频念三遍就刻进脑子。"
       }
     ]
   }
