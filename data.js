@@ -303,6 +303,80 @@ const VIDEOS = {
       ["zh", "好像不是所有单词都能这么搞吧？这个是基础，不学的话你怎么背单词？"],
       ["zh", "这个单字怎么读？backflip，没错啦！厉害吧？在哪学呀？在我直播间，每天都有教。"]
     ]
+  },
+  "7693424065784382819": {
+    id: "7693424065784382819",
+    title: "It's very impor嗯…一起读读看～",
+    url: "https://www.douyin.com/video/7693424065784382819",
+    date: "2026-10-06",
+    author: "此时",
+    summary: "口语提速四连：it 连读、got to 说成 gotta、important 重音在中间、for 弱读 /fər/——跟读几遍，口语立刻不像「机器人」。",
+    script: [
+      ["en", "Say it — say it to me.（it 轻轻连上去，不要读成两个断开的词）"],
+      ["en", "I gotta go, I gotta work.（got to 口语里说成 gotta）"],
+      ["en", "It's very important.（重音打在 -POR- 上：im-POR-tant）"],
+      ["en", "It's for you, it's for me.（for 弱读成 /fər/，不读「佛尔」）"]
+    ]
+  },
+  "7537645748911361314": {
+    id: "7537645748911361314",
+    title: "为什么小狗不是 little dog？",
+    url: "https://www.douyin.com/video/7537645748911361314",
+    date: "2025-08-12",
+    author: "豆苗妈妈（口语娃启蒙方法）",
+    summary: "little dog 指的是「体型小」，不是「幼崽」——动物幼崽有自己的专有词：puppy 小狗、kitten 小猫、chick 小鸡、duckling 小鸭、bunny 小兔、lamb 小羊、cub 幼兽、piglet 小猪、pony 小马。",
+    script: [
+      ["zh", "为什么小狗不能说 little dog 呢？"],
+      ["en", "Actually, little dog refers to the body size, but not the age."],
+      ["zh", "所以：dog 小狗是 puppy，cat 小猫是 kitten，"],
+      ["zh", "chicken 小鸡是 chick，duck 小鸭是 duckling，rabbit 小兔是 bunny。"],
+      ["zh", "sheep 小羊是 lamb，bear 幼熊是 cub，pig 小猪是 piglet，horse 小马是 pony。"],
+      ["en", "Do you get it?"]
+    ]
+  },
+  "7473739983698890021": {
+    id: "7473739983698890021",
+    title: "周五是 in Friday 还是 on Friday？",
+    url: "https://www.douyin.com/video/7473739983698890021",
+    date: "2025-02-22",
+    author: "张俊杰讲英语-好学好课",
+    summary: "别背「小于一天用 at」的口诀！理解本意：at 是「点」、on 是「单位一（具体到某一天）」、in 是「范围」——一套逻辑通吃年月日时刻。",
+    script: [
+      ["zh", "很多老师讲这题让你背口诀：小于一天用 at，等于一天用 on，大于一天用 in——这是大错特错的。"],
+      ["zh", "at 的意思叫「点」，跟大小没有必然关系：at five o'clock、at noon（正午十二点这个点）、at night（天全黑的那一刹那）。"],
+      ["zh", "on 由「一」演化而来，跟「单位一」相关：一天、一天的早晨、一天的晚上——Friday 是一天，所以 on Friday。"],
+      ["zh", "in 表示「范围」：in two hours（两小时是范围）、in a week（一周七天不是一天）、in summer、in 2024。"],
+      ["zh", "一月份是范围 → in January；具体到一月一号 → on January 1st；再加年份 → on January 1st, 2024；再具体到点 → at 5 o'clock, January 1st, 2024。"],
+      ["zh", "at 是点、in 是范围、on 是单位一——理解了本意，随便怎么变你都会选。"]
+    ]
+  },
+  "7475673515203628351": {
+    id: "7475673515203628351",
+    title: "秒懂指示代词",
+    url: "https://www.douyin.com/video/7475673515203628351",
+    date: "2025-02-26",
+    author: "英语可莉老师",
+    summary: "一张嘴全捋清：this 这个 / that 那个 / these 这些 / those 那些 / both 两个都 / either 任一个 / the other one 另一个 / another one 再来一个。",
+    script: [
+      ["en", "This — 这个。 That — 那个。 These — 这些。 Those — 那些。"],
+      ["en", "Both — 两个。 Either — 任何一个。"],
+      ["en", "This one — 这一个。 The other one — 另一个。 Another one — 再来一个。"]
+    ]
+  },
+  "7503380715166256420": {
+    id: "7503380715166256420",
+    title: "英语里的两个「打开」",
+    url: "https://www.douyin.com/video/7503380715166256420",
+    date: "2025-05-12",
+    author: "飞凡满分英语",
+    summary: "「带电用 turn on、不带电用 open」是错的！本意：turn on = 旋转着开（早期电灯电视都是拧的，水龙头也是）；open = 移除障碍、打开通道（门、窗、酒瓶）。开灯说 open the light，老外以为你要拆灯修。",
+    script: [
+      ["zh", "谁告诉你们「带电的用 turn on、不带电的用 open」？那打开水龙头 turn on the tap——水龙头带电吗？"],
+      ["zh", "turn 的本意是「旋转」。早期的电灯没有开关，你转一下它就开了——所以是 turn on the light。"],
+      ["zh", "不光电器：任何「转着开」的东西都用 turn on。以前的电视是转着开的 → turn on the TV；老汽车也要拧着启动 → turn on the car；水龙头也是转着开的 → turn on the tap。"],
+      ["zh", "那 open 呢？open 的含义是「移除障碍、新建通道」：开门、开窗、开酒瓶。"],
+      ["zh", "开灯如果用 open，老外会觉得你要打开外壳、准备修理一下灯。"]
+    ]
   }
 };
 
@@ -745,6 +819,118 @@ const WORDS = [
         exampleEn: "Flip the pancake over.",
         exampleZh: "把煎饼翻个面。",
         note: "backflip 的核心词。常见搭配 flip a coin（抛硬币决定）、flip through（快速翻阅）。手机翻盖手机叫 flip phone。"
+      }
+    ]
+  },
+  {
+    word: "gotta",
+    pos: "口语缩略",
+    ipa: "/ˈɡɒtə/",
+    meaning: "（= got to）必须，得",
+    details: [
+      {
+        videoId: "7693424065784382819",
+        exampleEn: "I gotta go, I gotta work.",
+        exampleZh: "我得走了，我得干活了。",
+        note: "got to 在快速口语里弱化成 gotta。书面语别写 gotta，但听力里必须认识。同类：wanna（want to）、gonna（going to）。"
+      }
+    ]
+  },
+  {
+    word: "puppy",
+    pos: "名词",
+    ipa: "/ˈpʌpi/",
+    meaning: "小狗，幼犬",
+    details: [
+      {
+        videoId: "7537645748911361314",
+        exampleEn: "The puppy is playing with the ball.",
+        exampleZh: "小狗在玩球。",
+        note: "little dog 指体型小，不是幼崽！幼崽有专有词：kitten 小猫、chick 小鸡、duckling 小鸭、bunny 小兔、lamb 小羊、cub 幼兽、piglet 小猪、pony 小马。"
+      }
+    ]
+  },
+  {
+    word: "kitten",
+    pos: "名词",
+    ipa: "/ˈkɪtn/",
+    meaning: "小猫，幼猫",
+    details: [
+      {
+        videoId: "7537645748911361314",
+        exampleEn: "Our kitten is three months old.",
+        exampleZh: "我们家小猫三个月大。",
+        note: "和 puppy（小狗）成对记。注意 tt 只发一个音 /ˈkɪtn/，中间的 e 不发音。"
+      }
+    ]
+  },
+  {
+    word: "on",
+    pos: "介词",
+    ipa: "/ɒn/",
+    meaning: "（时间）在具体某一天；（位置）在……上面",
+    details: [
+      {
+        videoId: "7473739983698890021",
+        exampleEn: "We have a test on Friday.",
+        exampleZh: "我们周五有个测验。",
+        note: "别背「等于一天用 on」的口诀——on 的本意是「单位一」：具体到某一天就用 on（on Friday、on Monday morning、on May 1st、on January 1st, 2024）。对比：at 是「点」，in 是「范围」。"
+      }
+    ]
+  },
+  {
+    word: "this",
+    pos: "指示代词",
+    ipa: "/ðɪs/",
+    meaning: "这，这个（近处单数）",
+    details: [
+      {
+        videoId: "7475673515203628351",
+        exampleEn: "This is my book.",
+        exampleZh: "这是我的书。",
+        note: "四兄弟：this 这个（近单）/ that 那个（远单）/ these 这些（近复）/ those 那些些（远复）。距离定 this/that，数量定单复。延伸：the other one 另一个、another one 再来一个。"
+      }
+    ]
+  },
+  {
+    word: "another",
+    pos: "代词 / 形容词",
+    ipa: "/əˈnʌðər/",
+    meaning: "再来一个；另一个（三者以上中任一）",
+    details: [
+      {
+        videoId: "7475673515203628351",
+        exampleEn: "Another one, please!",
+        exampleZh: "请再来一个！",
+        note: "an + other = 另外的一个。和 the other 区分：another 是「再随便来一个」，the other 是「两者中剩下的那个」。"
+      }
+    ]
+  },
+  {
+    word: "turn on",
+    pos: "短语动词",
+    ipa: "/tɜːn ɒn/",
+    meaning: "打开（转动开关类）；启动",
+    details: [
+      {
+        videoId: "7503380715166256420",
+        exampleEn: "Turn on the tap / the TV / the light.",
+        exampleZh: "打开水龙头／电视／灯。",
+        note: "不是「带电才能用」！turn 本意是「旋转」——早期电灯电视都是拧着开的，水龙头也是转着开的，所以都算 turn on。对应关闭是 turn off。"
+      }
+    ]
+  },
+  {
+    word: "open",
+    pos: "动词 / 形容词",
+    ipa: "/ˈəʊpən/",
+    meaning: "打开（移除障碍、张开）；营业的",
+    details: [
+      {
+        videoId: "7503380715166256420",
+        exampleEn: "Open the door / the window / the bottle.",
+        exampleZh: "开门／开窗／开酒瓶。",
+        note: "本意是「移除障碍、新建通道」——门、窗、书、盒子、酒瓶用 open。开灯别说 open the light，老外以为你要拆灯壳修理。"
       }
     ]
   }

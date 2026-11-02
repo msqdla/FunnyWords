@@ -69,5 +69,30 @@ const TEACHERS = [
     name: "MrYang 杨家成🔥",
     url: "https://www.douyin.com/user/MS4wLjABAAAAuyURLEHBlHsyEXQY3t8eqOLBNlvecSR180vBVEf9uMQ",
     note: "情景短剧 · 自然拼读"
+  },
+  {
+    name: "此时",
+    url: "https://www.douyin.com/user/MS4wLjABAAAABSCx653V_wrtkZZUY62bSw6aMY9KOblEVyMWLLb9O7s",
+    note: "口语跟读 · 连读弱读"
+  },
+  {
+    name: "豆苗妈妈（口语娃启蒙方法）",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAllQuYpIUsti4vPfRs6_ajIsHq_5DvnRdutH2JeTuwIs",
+    note: "双语宝宝 · 英语启蒙"
+  },
+  {
+    name: "张俊杰讲英语-好学好课",
+    url: "https://www.douyin.com/user/MS4wLjABAAAApYU9i5tnkp_gcBdIl1-5j1HEee2mU8X4qTXWJQDgSOr9jy0uvl1R5Jy2Be5jDR7v",
+    note: "讲本意 · 拒绝死背口诀"
+  },
+  {
+    name: "英语可莉老师",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAsOarcy2suSsUYC1x9QEQpy5PXpktH-nBAXB-ngVoYmyu3zzEsB53Qh6f-IkYvHHe",
+    note: "一分钟语法 · 生活英语"
+  },
+  {
+    name: "飞凡满分英语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAARkJBHKXp_jmSRmOnoCV--WSCci2jo_CtKH9NitAJWrNOinJwcwTebFxhUvamT-Em",
+    note: "词汇本意 · 趣味英语"
   }
 ];

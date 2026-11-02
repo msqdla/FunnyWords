@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="单词一学会·学习专题：学习方法、语法用法、发音技巧，全部来自抖音英语老师视频总结。">
+<title>学习专题 — 单词一学会</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#fff; --primary:#fe2c55; --ink:#161823;
+    --muted:#8a8f99; --line:#ebedf0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;padding-bottom:60px}
+  header{position:sticky;top:0;background:var(--card);border-bottom:1px solid var(--line);padding:12px 18px;z-index:10}
+  .wrap{max-width:860px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  h1{font-size:19px}
+  .back{font-size:13px;color:var(--primary);text-decoration:none;font-weight:600;white-space:nowrap}
+  .back:hover{text-decoration:underline}
+
+  main{max-width:860px;margin:14px auto;padding:0 14px}
+
+  /* 标签页 */
+  .tabs{display:flex;gap:8px;margin-bottom:14px;position:sticky;top:57px;background:var(--bg);padding:8px 0;z-index:9}
+  .tab{flex:1;text-align:center;padding:10px 0;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;font-size:14.5px;font-weight:600;color:var(--muted);cursor:pointer;
+    text-decoration:none;transition:all .15s}
+  .tab.on{background:var(--primary);border-color:var(--primary);color:#fff}
+
+  .tcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px}
+  .tcard h3{font-size:16.5px;line-height:1.45}
+  .brief{font-size:13px;color:var(--muted);margin-top:5px;line-height:1.6}
+  .points{margin-top:12px}
+  .points li{list-style:none;position:relative;padding-left:20px;font-size:14.5px;line-height:1.75;margin-bottom:8px}
+  .points li::before{content:"";position:absolute;left:2px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--primary);opacity:.55}
+  .tip{margin-top:12px;font-size:13.5px;color:#8a6d1a;background:#fffbf0;border-radius:9px;padding:9px 13px;line-height:1.6}
+  .tip b{color:#a37f12}
+  .srcs{margin-top:13px;display:flex;gap:8px;flex-wrap:wrap}
+  .srcs a{font-size:12.5px;color:var(--primary);text-decoration:none;font-weight:600;
+    border:1px solid #ffd0da;background:#fff5f7;border-radius:8px;padding:6px 12px}
+  .srcs a:hover{background:#ffe9ee}
+  .cat-note{font-size:12.5px;color:var(--muted);margin:4px 0 12px;line-height:1.7}
+
+  footer{max-width:860px;margin:22px auto 0;padding:0 14px;font-size:12px;color:var(--muted);line-height:1.9}
+
+  @media(max-width:640px){
+    header{padding:10px 14px}
+    h1{font-size:17px}
+    .tabs{top:52px}
+    .tab{padding:11px 0;font-size:14px}
+    .tcard{padding:15px 15px 16px;border-radius:12px}
+    .tcard h3{font-size:15.5px}
+    .points li{font-size:14px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>📚 学习专题</h1>
+    <a class="back" href="index.html">← 回单词库</a>
+  </div>
+</header>
+<main>
+  <nav class="tabs">
+    <a class="tab" data-c="method" href="#method">🧠 学习方法</a>
+    <a class="tab" data-c="grammar" href="#grammar">✏️ 语法用法</a>
+    <a class="tab" data-c="pronunciation" href="#pronunciation">🗣️ 发音</a>
+  </nav>
+  <div class="cat-note" id="catNote"></div>
+  <div id="list"></div>
+</main>
+<footer>
+  专题内容由各老师视频总结整理，点「▶ 看原视频」可跳转抖音出处。<br>
+  学习专题与<a href="index.html" style="color:var(--primary);text-decoration:none;font-weight:600">单词库</a>互通：视频出处一致。
+</footer>
+<script src="data.js"></script>
+<script src="topics.js"></script>
+<script>
+const CATS = {
+  method:       {name:"学习方法", note:"怎么记又快又牢：词根词缀、词族、场景联想、拆字、自然拼读的边界——每种方法都附原视频出处。"},
+  grammar:      {name:"语法用法", note:"最容易搞混的小语法点，一条视频讲透一个。"},
+  pronunciation:{name:"发音",     note:"native 人才的发音细节：短长音、重音、地道读法，跟着原视频练最有效。"}
+};
+const videoOf = id => VIDEOS[id] || {title:"未知视频", url:"#", date:""};
+
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function render(cat){
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on", t.dataset.c===cat));
+  document.getElementById("catNote").textContent = CATS[cat].note;
+  const list = document.getElementById("list");
+  const items = TOPICS.filter(t=>t.cat===cat);
+  if(!items.length){
+    list.innerHTML = '<div class="tcard">这个分类还在整理中，敬请期待～</div>';
+    return;
+  }
+  list.innerHTML = items.map(t=>`
+    <div class="tcard">
+      <h3>${esc(t.title)}</h3>
+      <div class="brief">${esc(t.brief)}</div>
+      <ul class="points">${t.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>
+      ${t.tip ? `<div class="tip"><b>💡 记忆钩子：</b>${esc(t.tip)}</div>` : ""}
+      <div class="srcs">${t.from.map(vid=>{
+        const v = videoOf(vid);
+        return `<a href="${v.url}" target="_blank" rel="noopener">▶ 《${esc(v.title)}》</a>`;
+      }).join("")}</div>
+    </div>`).join("");
+}
+
+function route(){
+  const h = (location.hash || "#method").replace("#","");
+  render(CATS[h] ? h : "method");
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", route);
+route();
+</script>
+</body>
+</html>
