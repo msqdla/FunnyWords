@@ -522,6 +522,136 @@ const VIDEOS = {
       ["zh", "刚学了一个组合音，周边的单词你都能读出来：pan、tan、can、plan——都对啦！"],
       ["zh", "总结：每学一个组合音，都能背一千多个同类型单词，而这种组合音只有一百多个。"]
     ]
+  },
+  "7490090039070772514": {
+    id: "7490090039070772514",
+    title: "英语作文高级开头",
+    url: "https://www.douyin.com/video/7490090039070772514",
+    date: "2025-04-07",
+    author: "飞凡满分英语",
+    summary: "作文开头别再用 I think 和 in my opinion：换成 as far as I am concerned、it goes without saying that、it can be said with certainty that、from my point of view——阅卷老师眼前一亮，字数还多。",
+    script: [
+      ["zh", "怎么还有人英语作文开头用 I think？还有 in my opinion——opinion 还想不起来怎么写。"],
+      ["zh", "都说了作文开头要高级，要给看你卷子的人整不会了。"],
+      ["zh", "把 I think 换成：as far as I am concerned（就我而言）、it goes without saying that（不言而喻）、it can be said with certainty that（可以肯定地说）、from my point of view（在我看来）。"],
+      ["zh", "哪个不比 I think 高级？字还多，还能凑字数。"],
+      ["zh", "觉得太长不好背？再记短的：to my mind、in my view、I would argue that。"]
+    ]
+  },
+  "7687175403730898210": {
+    id: "7687175403730898210",
+    title: "have 和 there be：一个口诀分清楚",
+    url: "https://www.douyin.com/video/7687175403730898210",
+    date: "2026-09-21",
+    author: "飞凡满分英语",
+    summary: "「本身自带用 have，外来存在 there be」：树上有叶子用 has（叶子是树的一部分），树上有小鸟用 there is（鸟只是呆在那儿）——一个判断标准全搞定。",
+    script: [
+      ["zh", "树上有叶子，用英语怎么说？简单：the tree has leaves。"],
+      ["zh", "那树上有小鸟呢？the tree has a bird？错！这里已经变了。"],
+      ["zh", "口诀：本身自带用 have，外来存在 there be。"],
+      ["zh", "某物是主语本身拥有的、具有的、包含的、作为一部分的，都用 have：I have a pen（笔属于我）；the table has four legs（桌腿是桌子的一部分）；the tree has leaves（树叶是树的一部分）。"],
+      ["zh", "而小鸟并不是树的一部分，只是存在于那里，就得用 there be：there is a bird in the tree。"],
+      ["zh", "桌上有本书：书不是桌子自带的——there is a book on the desk。"],
+      ["zh", "本身自带用 have，外来存在 there be。明白了吗？"]
+    ]
+  },
+  "7374036060134772020": {
+    id: "7374036060134772020",
+    title: "“滚犊子”用英语怎么说？",
+    url: "https://www.douyin.com/video/7374036060134772020",
+    date: "2024-05-28",
+    author: "CoachShane",
+    summary: "有人烦你，美语里一句 Get outta here! 全搞定——注意它是「去去去/别闹了」的安全表达，真发火另有版本；这句也是老外表达「不敢相信」的高频口语。",
+    script: [
+      ["zh", "这些语言真有意思。但如果有人在烦你，你会说："],
+      ["en", "Get outta here! —— 闭嘴，离开这儿（滚犊子）。"],
+      ["zh", "Get out of here 连读就是 Get outta here。"],
+      ["zh", "注意：这是朋友间打趣、表达「别闹了/去去去」的安全说法；老外也常用它表示「不会吧，我不信」。真要骂人另有更难听的版本，别乱用。"],
+      ["en", "Let's learn English together. My name is Coach Shane.（跟着 Coach Shane 一起学英语）"]
+    ]
+  },
+  "7352824741117332776": {
+    id: "7352824741117332776",
+    title: "螺蛳粉岛口语教学：连读专题",
+    url: "https://www.douyin.com/video/7352824741117332776",
+    date: "2024-04-01",
+    author: "路西法",
+    summary: "连读不是「说得快」：a lot of 连成 a lotta、T 浊化成 D（water 听着像 wader）、going to 说成 gonna、Where are you from 里 are 几乎消失——口语里这些「消失」才是 native 感的秘密。",
+    script: [
+      ["en", "Hello everyone, welcome to my channel. Channel 没有「柴」的音——channel。"],
+      ["zh", "今天先从几个口语中常见的连读开始。"],
+      ["en", "We have a lot of time. —— a lot of 连读不是说得快，是 a lotta，T 浊化成 D 的音。"],
+      ["zh", "同理 water 里的 T 也浊化，听着像 wader——这是美音的「闪音」现象。"],
+      ["en", "What are you going to do? —— going to 说成 gonna：What are you gonna do? what are 还能连成 whaddaya。"],
+      ["en", "Where are you from? —— 正确来说 are 里的 R 必须在，但口语里它轻到几乎没读。"],
+      ["en", "Get out of here. —— out of 同样连读：get outta here。"]
+    ]
+  },
+  "7619278027797779057": {
+    id: "7619278027797779057",
+    title: "God help those who stand in our way！（配音）",
+    url: "https://www.douyin.com/video/7619278027797779057",
+    date: "2026-03-20",
+    author: "soph1ee",
+    summary: "16 秒影视级配音，一句台词打包三个知识点：by the time（到……之时）、be sworn in（宣誓就职）、stand in our way（挡我们的路）——愿上帝保佑挡我们路的人。",
+    script: [
+      ["en", "By the time the sun sets, they will be sworn in, and in uniform."],
+      ["zh", "到日落之时，他们将完成宣誓、穿上制服。"],
+      ["en", "And by sunrise tomorrow, they will be on the streets."],
+      ["zh", "明早太阳升起时，他们就会走上街头。"],
+      ["en", "God help those who stand in our way."],
+      ["zh", "愿上帝保佑那些挡我们路的人。"]
+    ]
+  },
+  "7509445587319393571": {
+    id: "7509445587319393571",
+    title: "快逃命吧，用英语怎么说？",
+    url: "https://www.douyin.com/video/7509445587319393571",
+    date: "2025-05-28",
+    author: "耳东陈英语",
+    summary: "灾难片高频句：Run for your lives!——注意 life 要变复数 lives，因为逃命的是一伙人；单数 run for your life 也成立，指一个人逃命。",
+    script: [
+      ["zh", "快逃命吧，用英语怎么说呢？"],
+      ["en", "Run! Run for your lives!"],
+      ["zh", "一伙人一起逃，life 要变成 lives；一个人逃命就说 Run for your life!"],
+      ["zh", "你学会了吗？别忘了点赞和关注哦。"]
+    ]
+  },
+  "7566119549968534843": {
+    id: "7566119549968534843",
+    title: "用英语介绍内蒙烧麦",
+    url: "https://www.douyin.com/video/7566119549968534843",
+    date: "2025-10-28",
+    author: "瑞哥英语_RyanChen",
+    summary: "全英文美食 vlog 学地道表达：the Texas of China（中国的德州，什么都大）、it turns out（结果发现）、the real deal（真材实料）、make sure（确保）——介绍家乡美食照这个模板说。",
+    script: [
+      ["en", "I'm in Inner Mongolia, China. Today I'm going to introduce my favorite Inner Mongolia food."],
+      ["en", "This is Shaomai, a very local breakfast. I only ordered 50 grams, but it turns out 50 grams is only the rapini."],
+      ["en", "Inner Mongolia is like the Texas of China — everything is bigger in Inner Mongolia."],
+      ["en", "The whole thing weighs up to 320 grams. So make sure you order the right size."],
+      ["en", "The filling is not ground too fine. When you put it in your mouth, you still feel the texture."],
+      ["en", "And you have to drink the Mongolian milk tea. That's real milk, real fat. It's not sugary, it's salty. I like it so much better than boba tea."],
+      ["zh", "（这条视频值得整段跟读：介绍类口语的完整范本——开头定位、类比、数字细节、个人推荐一应俱全）"]
+    ]
+  },
+  "7699880057153637667": {
+    id: "7699880057153637667",
+    title: "坚持一个月，英语听力突飞猛进",
+    url: "https://www.douyin.com/video/7699880057153637667",
+    date: "2026-10-24",
+    author: "跟大Mon学听力口语",
+    summary: "精听逐句拆解示范（动画片段）：come check this out 快来看、has got = has、built-in 内置的、no more getting up 再也不用起身、all the way 一路——听力突飞猛进靠的是把每句拆到连读弱读。",
+    script: [
+      ["en", "This is what your mom wants, right, Gabe? —— what your mom wants 被强调，其余降调一闪而过。"],
+      ["en", "Dad, come check this out. —— come check this out：快来看这个，查看某样东西。"],
+      ["en", "It's called the Relaxinator 3000. It's got built-in surround sound."],
+      ["zh", "has got 就是 has 的意思；built-in 是「内置的」，surround sound 是环绕立体声。RELAXINATOR 3000 是自造词：relax + -ator（科技感后缀）+ 3000 型号——「放松神器 3000」。"],
+      ["en", "And a mini fridge. Are you kidding me?"],
+      ["en", "No more getting up and going all the way into the kitchen."],
+      ["zh", "no more = 再也不用；getting up 起身（getting 快读时后鼻音变化、t 几乎不发音，gétting-up 连读）；all the way = 一路、一直走到厨房。"],
+      ["en", "When did we arrive at the future?"],
+      ["zh", "arrive at 到达（小地点用 at，大地方用 in）。整句：我们什么时候已经步入未来了？"]
+    ]
   }
 };
 
@@ -1230,6 +1360,104 @@ const WORDS = [
         exampleEn: "I was. You were. He was. She was. It was. We were. They were.",
         exampleZh: "be 动词过去时全家福：单数用 was（I/he/she/it），复数和 you 用 were。",
         note: "视频用「was wa was」节奏洗脑：现在时 I am / You are / He is，过去时 I was / You were / He was——跟着原视频念三遍就刻进脑子。"
+      }
+    ]
+  },
+  {
+    word: "as far as I am concerned",
+    pos: "短语（观点表达）",
+    ipa: "/æz fɑːr æz aɪ əm kənˈsɜːnd/",
+    meaning: "就我而言，在我看来",
+    details: [
+      {
+        videoId: "7490090039070772514",
+        exampleEn: "As far as I am concerned, this is the best choice.",
+        exampleZh: "就我而言，这是最好的选择。",
+        note: "作文高级开头替换 I think：同款还有 it goes without saying that（不言而喻）、from my point of view、it can be said with certainty that。字多显高级，还能凑字数。"
+      }
+    ]
+  },
+  {
+    word: "run for your life",
+    pos: "短语",
+    ipa: "/rʌn fər jɔːr laɪf/",
+    meaning: "快逃命，拼命跑",
+    details: [
+      {
+        videoId: "7509445587319393571",
+        exampleEn: "Run for your lives!",
+        exampleZh: "快逃命吧！",
+        note: "一伙人一起逃，life 要变复数 lives；一个人逃命用单数 run for your life。灾难片、怪兽片高频句。"
+      }
+    ]
+  },
+  {
+    word: "stand in the way",
+    pos: "短语",
+    ipa: "/stænd ɪn ðə weɪ/",
+    meaning: "阻挡，妨碍（某人/某事）",
+    details: [
+      {
+        videoId: "7619278027797779057",
+        exampleEn: "God help those who stand in our way.",
+        exampleZh: "愿上帝保佑挡我们路的人（言下之意：挡路者后果自负）。",
+        note: "常用搭配 stand in sb's way / stand in the way of sth（妨碍某事）。同视频里 be sworn in 是「宣誓就职」。"
+      }
+    ]
+  },
+  {
+    word: "the real deal",
+    pos: "习语",
+    ipa: "/ðə rɪəl diːl/",
+    meaning: "真材实料；名副其实的东西",
+    details: [
+      {
+        videoId: "7566119549968534843",
+        exampleEn: "This is the real deal. It's not sugary, it's salty.",
+        exampleZh: "这个才是真材实料——不甜，是咸的（内蒙奶茶）。",
+        note: "deal 是「交易」，the real deal 引申为「货真价实的那一个」。介绍家乡美食时夸东西正宗就这么说。同视频好句：it turns out（结果发现）、the Texas of China（类比句式：中国的德州）。"
+      }
+    ]
+  },
+  {
+    word: "get out of here",
+    pos: "口语短语",
+    ipa: "/ɡet aʊt əv hɪr/",
+    meaning: "去去去，别闹了；不会吧（口语常连读成 get outta here）",
+    details: [
+      {
+        videoId: "7374036060134772020",
+        exampleEn: "Get outta here! You're kidding me.",
+        exampleZh: "去去去／不会吧！你逗我呢。",
+        note: "朋友间打趣的「安全版滚犊子」，也常用来表达「不敢相信」。注意 out of 连读成 outta。真骂人另有更难听版本，别乱用。"
+      }
+    ]
+  },
+  {
+    word: "check this out",
+    pos: "口语短语",
+    ipa: "/tʃek ðɪs aʊt/",
+    meaning: "快看这个；瞧瞧（引起注意）",
+    details: [
+      {
+        videoId: "7699880057153637667",
+        exampleEn: "Dad, come check this out!",
+        exampleZh: "爸，快来看这个！",
+        note: "给朋友show好东西的万能开头。check out 本意「查看、结账退房」，check it out / check this out 就是「你来看看」。"
+      }
+    ]
+  },
+  {
+    word: "built-in",
+    pos: "形容词",
+    ipa: "/ˌbɪlt ˈɪn/",
+    meaning: "内置的，嵌入的；与生俱来的",
+    details: [
+      {
+        videoId: "7699880057153637667",
+        exampleEn: "It's got built-in surround sound.",
+        exampleZh: "它自带环绕立体声。",
+        note: "build（建造）+ in（进去）= 建在里面 → 内置。引申用法：a built-in advantage（天生的优势）。注意 It's got = It has got = It has。"
       }
     ]
   }

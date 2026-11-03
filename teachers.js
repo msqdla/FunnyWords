@@ -124,5 +124,35 @@ const TEACHERS = [
     name: "English老儿",
     url: "https://www.douyin.com/user/MS4wLjABAAAAFjbhePkj3SQAPDzkLHYM-XRnnj5mHUx_LmXG0Yr2enEywdYbXVdigRTeTSuW04gV",
     note: "洗脑节奏 · 基础语法"
+  },
+  {
+    name: "CoachShane",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAkplEit9LHbt69UbU2MkpIJfg8AGshI2Bt2bpKzIZOkO8vTQr0P6WNQhhHctm-ded",
+    note: "美式口语 · 地道表达"
+  },
+  {
+    name: "路西法",
+    url: "https://www.douyin.com/user/MS4wLjABAAAANrJnizxv-nYuaShaY-6FlVxYBhpJJ1yTbs2HNAHjeMo",
+    note: "口语连读 · 螺蛳粉岛教学"
+  },
+  {
+    name: "soph1ee",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA0Tjw0CNfQWV-ydKrCZIg20gVcOCItyOoMFB123euylA",
+    note: "影视配音 · 台词级口语"
+  },
+  {
+    name: "耳东陈英语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA-rClfxtQwdygNoAavQuqt-jjQpKqbFaIGox0f_5NWUS92a5axJuE4RXyB2DaBKKa",
+    note: "一分钟口语 · 零基础"
+  },
+  {
+    name: "瑞哥英语_RyanChen",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAk4t01LzQZQuWamv6xtB5qoqhO8a7Df3lhC6fZXIsewU",
+    note: "全英文 Vlog · 美食文化"
+  },
+  {
+    name: "跟大Mon学听力口语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAADNf8_RmsojPjQ6OyBDd7VzkwrdAcT55Apck3f6u_pTs",
+    note: "精听拆解 · 连读弱读"
   }
 ];

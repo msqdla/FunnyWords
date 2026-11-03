@@ -6,6 +6,21 @@
    ============================================ */
 
 const TOPICS = [
+  /* ============ 写作 ============ */
+  {
+    cat: "writing",
+    title: "作文高级开头：跟 I think 说再见",
+    brief: "来自飞凡满分英语：阅卷老师看到 I think 就困。",
+    from: ["7490090039070772514"],
+    points: [
+      "I think → as far as I am concerned（就我而言）/ from my point of view（在我看来）。",
+      "更高一级：it goes without saying that（不言而喻）、it can be said with certainty that（可以肯定地说）。",
+      "嫌长？记短版：to my mind、in my view、I would argue that。",
+      "同样的观点，换了开头句，卷面档次立刻不同——而且字多还能凑字数。"
+    ],
+    tip: "准备 3 个开头句轮换使用，全卷只用一个也行，但别用 I think。"
+  },
+
   /* ============ 学习方法 ============ */
   {
     cat: "method",
@@ -83,8 +98,34 @@ const TOPICS = [
     ],
     tip: "把大目标拆成「词数 + 材料」的阶段指标，每周可检查。"
   },
+  {
+    cat: "method",
+    title: "精听拆解法：一个月听力突飞猛进",
+    brief: "来自跟大Mon：把每一句拆到连读弱读，才算真的听过。",
+    from: ["7699880057153637667"],
+    points: [
+      "选一段 1-2 分钟的影视/动画片段，逐句精听，不是泛听刷量。",
+      "拆每句的三层：①词义（has got = has）②连读（getting up、all the way）③弱读（快读时 t 几乎消失）。",
+      "自造词也别放过：RELAXINATOR 3000 = relax + 科技感后缀 -ator + 型号——懂构词法，生词也能猜。",
+      "精听一个月 > 泛听一年：耳朵只认「你嘴里说得出的音」。"
+    ],
+    tip: "每天只精听 5 句，但每一句都要跟读到和原声一样快。"
+  },
 
   /* ============ 语法用法 ============ */
+  {
+    cat: "grammar",
+    title: "have vs there be：本身自带 vs 外来存在",
+    brief: "来自飞凡满分英语：树上有鸟到底怎么说？",
+    from: ["7687175403730898210"],
+    points: [
+      "口诀：本身自带用 have，外来存在 there be。",
+      "have 的条件：东西是主语「本身拥有/包含/作为一部分」——I have a pen、the table has four legs、the tree has leaves（树叶是树的一部分）。",
+      "there be 的条件：东西只是「存在于那里」，不是主语的一部分——there is a bird in the tree（鸟不是树长出来的）、there is a book on the desk。",
+      "判断只需一问：这东西是这个主语「长出来/配置的」吗？是 → have；只是待在那儿 → there be。"
+    ],
+    tip: "树上有叶子 has leaves ✓（叶子是树的），树上有鸟 there is a bird ✓（鸟是外来的）。"
+  },
   {
     cat: "grammar",
     title: "从句的本质：一场「自问自答」",
@@ -203,6 +244,20 @@ const TOPICS = [
       "for 弱读 /fər/：It's for you, it's for me. 不读成重重的「佛尔」。"
     ],
     tip: "跟读三遍定型：连读粘、弱读轻、重音打在正确的音节上。"
+  },
+  {
+    cat: "pronunciation",
+    title: "连读入门：a lot of = a lotta",
+    brief: "来自路西法：连读不是「说得快」，是有固定规律的。",
+    from: ["7352824741117332776"],
+    points: [
+      "a lot of → a lotta：of 弱读，T 浊化成 D 的音（美音「闪音」）。",
+      "同样的 T 浊化：water 听起来像 wader——这不是读错，是美音标准现象。",
+      "going to → gonna：What are you gonna do? what are 还能进一步连成 whaddaya。",
+      "Where are you from? 口语里 are 轻到几乎消失——正确性上 R 在，实际上听不见。",
+      "out of → outta：get out of here 说快了就是 get outta here。"
+    ],
+    tip: "先单独练 lotta / gonna / outta 三个「熟脸」，听力立刻解锁一票句子。"
   },
   {
     cat: "pronunciation",
