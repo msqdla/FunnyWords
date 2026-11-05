@@ -154,5 +154,45 @@ const TEACHERS = [
     name: "跟大Mon学听力口语",
     url: "https://www.douyin.com/user/MS4wLjABAAAADNf8_RmsojPjQ6OyBDd7VzkwrdAcT55Apck3f6u_pTs",
     note: "精听拆解 · 连读弱读"
+  },
+  {
+    name: "英语口语屋",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAuws5yz6u2gFxHSFSFh5Fz2POsFP28m9U5vVjSNnniDQ",
+    note: "影视混剪 · 每日一词"
+  },
+  {
+    name: "Bella口语笔记",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAcaU0DuvtsSuMUQU82Da64de5su98sEFnr-mPLKfK5qs",
+    note: "万能句型 · 口语笔记"
+  },
+  {
+    name: "BeijingwithCici",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAQQ-4gw6vn7J16RJuc8X1oxxfbW2TA6d8qpctuM-3UugfA34YedA6ApuNsxaExgbj",
+    note: "英语导游 · 北京文旅"
+  },
+  {
+    name: "九安打袋鼠",
+    url: "https://www.douyin.com/user/MS4wLjABAAAAGcrs3L2kL7f_QQkxyc1kdfdMtBSoTZ08KagFuEKTS8mtaQjI-LpAYz2VOhEpV5hK",
+    note: "老外口头禅 · 洋腔洋调"
+  },
+  {
+    name: "Scott学口语",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA-6Kx9tJHfGgq4f6HcN0f1K_4AZTw0OPA3lmqz83nw_Y",
+    note: "发音原理 · 美式读法"
+  },
+  {
+    name: "煜英英语学堂",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA11Pui_mEi9Gq3ffZRRW4nLw9ZHTamX1QtLaHnDQUPekzyfYxkNgG988idCTroflo",
+    note: "词根词缀 · 一串记单词"
+  },
+  {
+    name: "安妮英语说",
+    url: "https://www.douyin.com/user/MS4wLjABAAAA7eg798r_EcRZaLyL1ljx9_wJ81J0ebHdGlLJItrHJ6uPxVzvSTgzP3zPAqxiTdF-",
+    note: "发音秘诀 · 连读跟练"
+  },
+  {
+    name: "好哥成长记（英语版）",
+    url: "https://www.douyin.com/user/MS4wLjABAAAArt3j1v8A1LKm-kMz4kmoPQz3dL06-3Zx4XGBBTNhBsU",
+    note: "小学生博主 · 自然拼读词族"
   }
 ];

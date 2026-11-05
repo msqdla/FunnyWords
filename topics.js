@@ -6,6 +6,21 @@
    ============================================ */
 
 const TOPICS = [
+  /* ============ 情境口语（旅游/场景） ============ */
+  {
+    cat: "travel",
+    title: "英语导游词：用英语介绍北京",
+    brief: "来自北京英语导游 Cici：文旅讲解的完整范本，介绍任何家乡城市都能套用。",
+    from: ["7700168617112154475"],
+    points: [
+      "开场定调：I love Beijing —— 先给情绪，再给信息，观众才会跟下去。",
+      "介绍类口语的万能骨架：①定位（这是哪里、有什么地位）②亮点细节（挑 2-3 个最有画面的）③个人推荐（我最喜欢的是……）。",
+      "类比句式超好用：X is like the Y of China（X 就像中国的 Y）—— Inner Mongolia is like the Texas of China 同款（见瑞哥烧麦视频）。",
+      "导游词的高频句型：make sure you...（一定要……）、you have to try...（你必须尝尝……）、it's famous for...（以……闻名）。"
+    ],
+    tip: "把自己家乡套进这个骨架，录一遍语音，就是最好的口语作业。"
+  },
+
   /* ============ 写作 ============ */
   {
     cat: "writing",
@@ -284,5 +299,70 @@ const TOPICS = [
       "这些 -y / -ling / -let 后缀的「小词」是英语里最高频的地道感来源之一。"
     ],
     tip: "成对输入：教 dog 就带上 puppy，地道又成体系。"
+  },
+  {
+    cat: "pronunciation",
+    title: "t 的鼻腔爆破：mountain 为什么「听不见 t」",
+    brief: "来自 Scott学口语：不是吞音，是气流改走鼻子。",
+    from: ["7700234550450159481"],
+    points: [
+      "mountain / button / mitten / certain / curtain / written——都是 t+n 组合，读法相同。",
+      "要领：舌头摆好 t 的位置，喉咙阻断一下，气流从鼻子出去，舌位不动最省力。",
+      "常见错误是直接把 t 吞掉——口形和舌位必须做出来，只是不放气流。",
+      "慢速说话时请用标准读法：清晰、正确、好听，省力读法只属于快语速。"
+    ],
+    tip: "拿 written 练：written ✓ / writen ✗——阻断感在，音就在。"
+  },
+  {
+    cat: "pronunciation",
+    title: "连读跟练：let us / it's gonna",
+    brief: "来自安妮英语说的两条跟练：跟着念十遍，音调立刻像 native。",
+    from: ["7702004251871390331", "7703108575652881786"],
+    points: [
+      "let us 读成一个音节 /ˈletəs/：Let us know. / Let us begin. / Let us try it again.",
+      "going to 永远揉成 gonna：It's gonna be good / crazy / interesting.",
+      "跟练方法：先慢速夸张地把两个词粘住，再加速到正常语速。",
+      "听力里听不出 let us / gonna，多半不是生词问题，是嘴巴没做过这个动作。"
+    ],
+    tip: "嘴巴会说的音，耳朵才听得见——每天 1 分钟跟练胜过 1 小时干听。"
+  },
+  {
+    cat: "method",
+    title: "词根记词法：一个 port 换十一个词",
+    brief: "来自煜英英语学堂：词根就是单词的「偏旁部首」。",
+    from: ["7703364995695203705"],
+    points: [
+      "port = 搬运：airport 运人、seaport 运货、passport 通关的「证」。",
+      "加前缀变方向：im-进→import 进口，ex-出→export 出口，trans-跨→transport 运输，de-离开→deport 驱逐出境。",
+      "加身下/身后：sub 下撑住→support 支持；re 往回→report 报告（带回来的信息）。",
+      "先记词根，再用「偏旁」推生词——遇到没背过的词也能猜个七八分。"
+    ],
+    tip: "以后每遇到一个新词先拆一遍：有没有认识的词根？拆过一次，终身难忘。"
+  },
+  {
+    cat: "method",
+    title: "自然拼读词族：会一个 ip，会一串词",
+    brief: "来自好哥成长记（英语版）的小学生演示：换辅音，批量产词。",
+    from: ["7703931222740986954"],
+    points: [
+      "韵脚 -ip 不变，换开头辅音就是新词：lip、tip、hip、zip、ship、chip、slip。",
+      "词族背诵 = 声音记忆，不是字母记忆——嘴熟了，拼写自动跟着对。",
+      "常用韵脚还有：-at（cat hat bat）、-og（dog log fog）、-ake（cake lake make）。",
+      "适合零基础和小朋友：一次只学一个韵脚，一晚上拿下一串词。"
+    ],
+    tip: "每周挑一个词族，全家比赛谁说得多——玩着就把词背了。"
+  },
+  {
+    cat: "method",
+    title: "美剧精听法：三遍盲听 + 逐句拆解",
+    brief: "来自跟大Mon学听力口语：坚持一个月，听力突飞猛进的完整流程。",
+    from: ["7233705323196960057"],
+    points: [
+      "第一遍盲听抓大意，第二遍对着字幕听，第三遍逐句跟读——三遍缺一不可。",
+      "重点拆「听力死穴」：gonna 揉音、go in 的 w 滑动、pick up some 连成一串。",
+      "顺手收集高频搭配：take over 接管、word spread 消息传开、That went well.（反讽：进展真顺利）。",
+      "一段 3 分钟的名场面拆干净，胜过泛听一整部剧。"
+    ],
+    tip: "每天一段，一个月后你会在某天突然发现：他们怎么说得这么慢？"
   }
 ];

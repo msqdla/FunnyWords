@@ -652,6 +652,202 @@ const VIDEOS = {
       ["en", "When did we arrive at the future?"],
       ["zh", "arrive at 到达（小地点用 at，大地方用 in）。整句：我们什么时候已经步入未来了？"]
     ]
+  },
+  "7703565946951716134": {
+    id: "7703565946951716134",
+    title: "Ten-four 收到 明白",
+    url: "https://www.douyin.com/video/7703565946951716134",
+    date: "2026-11-02",
+    author: "英语口语屋",
+    summary: "对讲机高频语 Ten-four /ten fɔːr/ = 收到、明白。影视混剪例句：Ten-four! I'm on my way（收到，我这就出发）、Ten-four, good buddy（老兄，收到）。",
+    script: [
+      ["en", "Ten-four! I'm on my way. —— 收到，我这就出发。"],
+      ["en", "Ten-four, good buddy. —— 收到，老兄！"],
+      ["zh", "Ten-four /ten fɔːr/：无线电对讲机用语「收到、明白」，影视剧警察、出租车、特工戏里超高频。日常口语也可以用它表示「收到！」"]
+    ]
+  },
+  "7702390750268378418": {
+    id: "7702390750268378418",
+    title: "Stop at nothing 不惜一切代价",
+    url: "https://www.douyin.com/video/7702390750268378418",
+    date: "2026-10-30",
+    author: "英语口语屋",
+    summary: "Stop at nothing /stɒp æt ˈnʌθɪŋ/ = 不惜一切代价、不择手段、不达目的决不罢休——反派和狠人角色的高频台词。",
+    script: [
+      ["en", "Stop at nothing. —— 不惜一切代价。"],
+      ["zh", "stop（停止）+ at nothing（在「什么都没有」面前）= 没有什么能让我停下 → 不择手段、不达目的决不罢休。多用于形容决心极大的人（影视里反派尤其爱说）。"]
+    ]
+  },
+  "7700999702774320394": {
+    id: "7700999702774320394",
+    title: "Out of sight, out of mind 眼不见，心不烦",
+    url: "https://www.douyin.com/video/7700999702774320394",
+    date: "2026-10-26",
+    author: "英语口语屋",
+    summary: "英语谚语 Out of sight, out of mind /aʊt əv saɪt, aʊt əv maɪnd/ = 眼不见，心不烦；离久情疏——和中文「眼不见为净」神对仗。",
+    script: [
+      ["en", "Out of sight, out of mind."],
+      ["zh", "直译：离开视线，离开脑海——「眼不见，心不烦；离久情疏」。"],
+      ["zh", "英语谚语，对仗工整好记：sight 对 mind（ sight 押韵 mind）。用来形容久不联系就慢慢淡了的感情，或者「看不见就不惦记」的心态。"]
+    ]
+  },
+  "7700594111778765238": {
+    id: "7700594111778765238",
+    title: "What I mean is｜解释误会万能句型",
+    url: "https://www.douyin.com/video/7700594111778765238",
+    date: "2026-10-25",
+    author: "Bella口语笔记",
+    summary: "被误会了怎么说？What I mean is...（我的意思是……）——解释、澄清、挽回局面的万能开口句。",
+    script: [
+      ["en", "What I mean is... —— 我的意思是……"],
+      ["zh", "当别人误会了你，别急着争论，先用这句把话接回来：What I mean is（+ 你真正想表达的内容）。"],
+      ["zh", "同款句型：What I meant was...（我刚才想说的是……，用过去式承认之前没说清）；Let me put it another way（让我换个说法）。"]
+    ]
+  },
+  "7700168617112154475": {
+    id: "7700168617112154475",
+    title: "我爱北京 I love Beijing（英语导游实战）",
+    url: "https://www.douyin.com/video/7700168617112154475",
+    date: "2026-10-24",
+    author: "BeijingwithCici",
+    summary: "北京英语导游 Cici 的实战讲解：北京=北方首都、中国地图像大公鸡而北京在「鸡喉咙」、双奥之城、8 处世界文化遗产、「蓟」字里藏着草地+鱼+武器的 3000 年前水草丰美之地。",
+    script: [
+      ["en", "OK, now let me give a brief introduction about Beijing. As you know, Beijing is the capital of China."],
+      ["zh", "北 means north，京 means capital——Beijing 就是「北方的首都」，字面清清楚楚。"],
+      ["en", "This is the sketch map of China. It's really like a big rooster. And Beijing is right located at the throat of the rooster."],
+      ["zh", "中国地图像一只大公鸡，北京正好在「鸡喉咙」的位置——quite an important location。"],
+      ["en", "Beijing serves as the capital. And it has other titles: the city of culture, a city of politics, a city of innovation, a city of international communication, a city of double Olympics, and the city with the largest number of world cultural heritage — eight in total."],
+      ["en", "Beijing has continental climate with four distinguishing seasons. May, September and October are the best months to visit."],
+      ["en", "Beijing covers 16,410 square kilometers with 16 districts."],
+      ["en", "Beijing boasts more than 3,000 years of history. And as a capital, more than 870 years."],
+      ["zh", "北京最早叫「蓟」。Most Chinese characters are pictographic characters（象形字）——一个字就是一幅画。"],
+      ["zh", "「蓌」由三部分组成：上面是 grass（草），左边是 fish（鱼），右边是 weapons（武器）——3000 年前的北京，草地上走兽奔跑、河里有鱼、人执武器，a land of plenty（鱼米之乡）。"]
+    ]
+  },
+  "7696729438112779546": {
+    id: "7696729438112779546",
+    title: "老外天天在说的口头禅（11）洋腔洋调养成记",
+    url: "https://www.douyin.com/video/7696729438112779546",
+    date: "2026-10-15",
+    author: "九安打袋鼠",
+    summary: "一口气过 6 句老外挂在嘴边的口头禅：he's such a joker（他真是个活宝）、disgusting（恶心死了）、this is like really fun（这真的好好玩）、they're just unmatched（他们就是无敌）、I'm so sorry、my bad（我的错）。",
+    script: [
+      ["en", "He's such a joker."],
+      ["zh", "他真是个活宝 / 爱开玩笑的人。"],
+      ["en", "Disgusting!"],
+      ["zh", "恶心死了！（吐槽用）"],
+      ["en", "This is like really fun."],
+      ["zh", "这真的很好玩——like 是口语里的填充词。"],
+      ["en", "They're just unmatched."],
+      ["zh", "他们就是无可匹敌的。"],
+      ["en", "I'm so sorry. — My bad."],
+      ["zh", "太抱歉了。——我的错（认错口头禅，比 sorry 更随意）。"]
+    ]
+  },
+  "7700234550450159481": {
+    id: "7700234550450159481",
+    title: "mountain 怎么读？为什么美国人「不读 t」",
+    url: "https://www.douyin.com/video/7700234550450159481",
+    date: "2026-10-24",
+    author: "Scott学口语",
+    summary: "美国人读 mountain 里的 t 听不见，不是吞掉，而是「鼻腔爆破」：舌位摆好、喉咙阻断、不放气流，气流从鼻子走。button / mitten / certain / curtain / written 全是这一类，慢速时请用标准读法。",
+    script: [
+      ["en", "Why do Americans say \"mountain\" without the t sound?"],
+      ["zh", "其实不是把 t 扔掉：舌头位置摆好，喉咙紧闭阻断一下，只是不放气流——这叫鼻腔爆破。"],
+      ["en", "Button, mitten, certain, curtain, written — same pattern: t + n."],
+      ["zh", "都是 t 和 n 两个音的组合，发音位置非常接近，语速快时舌头干脆待在原地省力气。"],
+      ["zh", "注意：口形舌位都要做出来，不能硬吞掉。如果是慢慢说话，还是用标准读法——清晰、正确、好听。中央电视台读快了像「装电台」，但你不能慢慢地去「装电台」。"]
+    ]
+  },
+  "7702004251871390331": {
+    id: "7702004251871390331",
+    title: "发音秘诀：let us 千万别读成「来特-阿斯」",
+    url: "https://www.douyin.com/video/7702004251871390331",
+    date: "2026-10-29",
+    author: "安妮英语说",
+    summary: "let us 连读成一个音节 /le.təs/，听起来像 let-us：Let us know. / Let us begin. / Let us try it again. 跟着读，音调立刻像 native。",
+    script: [
+      ["en", "Let us. Not \"let — us\", but let-us, one smooth sound."],
+      ["en", "Let us know."],
+      ["zh", "让我们知道。"],
+      ["en", "Let us begin."],
+      ["zh", "让我们开始吧。"],
+      ["en", "Let us try it again."],
+      ["zh", "让我们再试一次。"]
+    ]
+  },
+  "7703108575652881786": {
+    id: "7703108575652881786",
+    title: "跟练！it's gonna —— 听起来不是 it is going to",
+    url: "https://www.douyin.com/video/7703108575652881786",
+    date: "2026-11-01",
+    author: "安妮英语说",
+    summary: "it's gonna 连读跟练：It's gonna be good.（会好的）/ It's gonna be crazy.（会很疯狂）/ It's gonna be interesting.（会很有趣）。going to 在口语里永远缩成 gonna。",
+    script: [
+      ["en", "It's gonna... it's gonna... follow me."],
+      ["en", "It's gonna be good."],
+      ["zh", "会好的。"],
+      ["en", "It's gonna be crazy."],
+      ["zh", "会很疯狂。"],
+      ["en", "It's gonna be interesting."],
+      ["zh", "会很有趣。"]
+    ]
+  },
+  "7703364995695203705": {
+    id: "7703364995695203705",
+    title: "如果你会说 port，那你就会说……",
+    url: "https://www.douyin.com/video/7703364995695203705",
+    date: "2026-11-04",
+    author: "煜英英语学堂",
+    summary: "词根 port = 搬运。会一个 port，等于一口气拿下十一个词：airport 机场、report 报告、transport 运输、import 进口、export 出口、deport 驱逐出境、support 支持、seaport 海港、spaceport 航天站、passport 护照。",
+    script: [
+      ["zh", "如果你会说 port（搬运），那你就会说——"],
+      ["en", "airport. report. transport. import. export."],
+      ["zh", "机场。报告。运输。进口。出口。"],
+      ["en", "deport. support. seaport. spaceport. passport."],
+      ["zh", "驱逐出境。支持。海港。航天站。护照。"],
+      ["zh", "词根就是单词的「偏旁」：port 表示搬运——运人的地方是机场，运货进出是进出口，把人运出国境就是驱逐出境。"]
+    ]
+  },
+  "7703931222740986954": {
+    id: "7703931222740986954",
+    title: "如果你会说 ip~，那这些单词你就可轻松学会",
+    url: "https://www.douyin.com/video/7703931222740986954",
+    date: "2026-11-03",
+    author: "好哥成长记（英语版）",
+    summary: "小学生博主的自然拼读演示：会读 ip，就能读出整个词族——lip 嘴唇、tip 小费、hip 臀部、zip 拉链、ship 轮船、chip 薯片、slip 滑倒。换开头的辅音，一串单词全拿下。",
+    script: [
+      ["zh", "如果你会读 ip，那么你就会说——"],
+      ["en", "lip. tip. hip. zip. ship. chip. slip."],
+      ["zh", "嘴唇。小费。臀部。拉链。轮船。薯片。滑倒。"],
+      ["zh", "同一个韵脚 ip，前面换个辅音就是一个新词——这就是自然拼读的「词族」记法。"]
+    ]
+  },
+  "7233705323196960057": {
+    id: "7233705323196960057",
+    title: "坚持一个月，英语听力突飞猛进（《老友记》精听示范）",
+    url: "https://www.douyin.com/video/7233705323196960057",
+    date: "2023-05-16",
+    author: "跟大Mon学听力口语",
+    summary: "用《老友记》Rachel 休完产假回来发现工位被人接管的名场面，示范「三遍盲听+逐句精听」：听出 gonna 的揉音、go in 的 w 滑动、pick up some 的连读，还有 take over / word spread 这些高频搭配。",
+    script: [
+      ["en", "That went well."],
+      ["zh", "进展很顺利（反讽用法）。well 指「进展顺利」。"],
+      ["en", "Almost everybody knew she was a girl."],
+      ["zh", "几乎所有人都知道她是个女孩。almost 和 everybody 之间有连读。"],
+      ["en", "After you punched that one guy who got it wrong."],
+      ["zh", "在你揍了那个说错话的人之后。punch = 握紧拳头打。"],
+      ["en", "Word spread."],
+      ["zh", "话传开了。spread = 传播。"],
+      ["en", "I'm just gonna go in my office and pick up some stuff."],
+      ["zh", "我要进去拿点东西。gonna 是 going to 的口语揉音；go in 中间加一个 w 滑动；pick up some 连成一串。"],
+      ["en", "Who the hell are you? I'm the hell person whose office this is!"],
+      ["zh", "你到底是谁？我就是这间办公室的主人！the hell 是加强语气的口头禅。"],
+      ["en", "I'm Gavin Mitchell, the person who's taking over your job."],
+      ["zh", "我是 Gavin Mitchell，接管你工作的人。take over = 接管，固定搭配。"],
+      ["en", "Why would you put a pink bow on a boy?"],
+      ["zh", "你怎么能给男孩戴粉色蝴蝶结？put a pink bow on = 给……戴粉色蝴蝶结。"]
+    ]
   }
 };
 
@@ -1458,6 +1654,202 @@ const WORDS = [
         exampleEn: "It's got built-in surround sound.",
         exampleZh: "它自带环绕立体声。",
         note: "build（建造）+ in（进去）= 建在里面 → 内置。引申用法：a built-in advantage（天生的优势）。注意 It's got = It has got = It has。"
+      }
+    ]
+  },
+  {
+    word: "ten-four",
+    pos: "口语（无线电用语）",
+    ipa: "/ten fɔːr/",
+    meaning: "收到，明白",
+    details: [
+      {
+        videoId: "7703565946951716134",
+        exampleEn: "Ten-four! I'm on my way.",
+        exampleZh: "收到，我这就出发！",
+        note: "来自对讲机无线电代码（ten-code），影视剧警察戏、特工戏高频。日常聊天用它说「收到！」比 OK 更带感。good buddy 是老派 CB 电台称呼「老兄」。"
+      }
+    ]
+  },
+  {
+    word: "stop at nothing",
+    pos: "短语",
+    ipa: "/stɒp æt ˈnʌθɪŋ/",
+    meaning: "不惜一切代价；不达目的决不罢休",
+    details: [
+      {
+        videoId: "7702390750268378418",
+        exampleEn: "He will stop at nothing to get revenge.",
+        exampleZh: "为了复仇他不择手段。",
+        note: "字面「在什么面前都不停」= 没有什么能阻止他。多含贬义或形容狠角色，影视反派高频台词。"
+      }
+    ]
+  },
+  {
+    word: "out of sight, out of mind",
+    pos: "谚语",
+    ipa: "/aʊt əv saɪt, aʊt əv maɪnd/",
+    meaning: "眼不见，心不烦；离久情疏",
+    details: [
+      {
+        videoId: "7700999702774320394",
+        exampleEn: "I haven't seen her for years — out of sight, out of mind.",
+        exampleZh: "我好多年没见她了——离久情疏啊。",
+        note: "对仗谚语，sight 与 mind 呼应。中文近义：「眼不见为净」「久而忘之」。写作里引谚语是加分项。"
+      }
+    ]
+  },
+  {
+    word: "what I mean is",
+    pos: "口语句型",
+    ipa: "/wɒt aɪ miːn ɪz/",
+    meaning: "我的意思是……（解释、澄清误会的万能开口句）",
+    details: [
+      {
+        videoId: "7700594111778765238",
+        exampleEn: "What I mean is, we should leave earlier.",
+        exampleZh: "我的意思是，我们应该早点出发。",
+        note: "被误会时的第一句先说这个，再接真正想表达的。变体：What I meant was...（我刚才想说的是……）；Let me put it another way（换个说法）。"
+      }
+    ]
+  },
+  {
+    word: "rooster",
+    pos: "名词",
+    ipa: "/ˈruːstər/",
+    meaning: "公鸡；（生肖）鸡",
+    details: [
+      {
+        videoId: "7700168617112154475",
+        exampleEn: "The map of China looks like a big rooster.",
+        exampleZh: "中国地图看起来像一只大公鸡。",
+        note: "导游 Cici 的开场妙喻：中国地图像大公鸡，北京正好位于「鸡喉咙」——the throat of the rooster，位置重要。十二生肖的「鸡年」也用 rooster（the Year of the Rooster）。"
+      }
+    ]
+  },
+  {
+    word: "my bad",
+    pos: "口语句型",
+    ipa: "/maɪ bæd/",
+    meaning: "我的错、怪我（比 sorry 更随意的认错口头禅）",
+    details: [
+      {
+        videoId: "7696729438112779546",
+        exampleEn: "I'm so sorry. — My bad.",
+        exampleZh: "太抱歉了。——我的错。",
+        note: "小失误时最地道的回应，朋友之间用；正式场合还是说 I apologize。同系列口头禅还有 he's such a joker（他真是个活宝）、disgusting（恶心死了）。"
+      }
+    ]
+  },
+  {
+    word: "unmatched",
+    pos: "形容词",
+    ipa: "/ʌnˈmætʃt/",
+    meaning: "无可匹敌的、无敌的",
+    details: [
+      {
+        videoId: "7696729438112779546",
+        exampleEn: "They're just unmatched.",
+        exampleZh: "他们就是无敌的。",
+        note: "un-（不）+ match（匹配）+ ed：找不到对手。夸球队、夸偶像、夸产品都行：Their chemistry is unmatched."
+      }
+    ]
+  },
+  {
+    word: "mountain",
+    pos: "名词 · 发音重点",
+    ipa: "/ˈmaʊntn/",
+    meaning: "山；（发音）-tain 里的 t 不放气流",
+    details: [
+      {
+        videoId: "7700234550450159481",
+        exampleEn: "Americans say \"mountain\" without a clear t sound.",
+        exampleZh: "美国人读 mountain 时听不到清楚的 t。",
+        note: "不是吞掉 t，是「鼻腔爆破」：舌位摆好、喉咙阻断、气流从鼻子走。同规律：button、mitten、certain、curtain、written（都是 t+n）。慢速说话时请用标准读法。"
+      }
+    ]
+  },
+  {
+    word: "port",
+    pos: "词根",
+    ipa: "/pɔːrt/",
+    meaning: "港口；（词根）搬运",
+    details: [
+      {
+        videoId: "7703364995695203705",
+        exampleEn: "If you can say \"port\", you can say airport, report, transport, import, export, deport, support, passport...",
+        exampleZh: "你会说 port，你就会说：机场、报告、运输、进口、出口、驱逐出境、支持、护照……",
+        note: "词根就是单词的「偏旁」：port=搬运。运人的地方→airport，运货进→import，运货出→export，把人运出国→deport，搬到身下撑住→support。"
+      }
+    ]
+  },
+  {
+    word: "let us",
+    pos: "发音连读",
+    ipa: "/let əs/ → /ˈletəs/",
+    meaning: "让我们（连读成一个音节 let-us）",
+    details: [
+      {
+        videoId: "7702004251871390331",
+        exampleEn: "Let us know. / Let us begin. / Let us try it again.",
+        exampleZh: "告诉我们。/ 让我们开始吧。/ 让我们再试一次。",
+        note: "千万别读成「来特-阿斯」两个断开的词，let 的 t 和 us 粘成一个音节，听起来像 /ˈletəs/。口语里更常见缩写 let's。"
+      }
+    ]
+  },
+  {
+    word: "gonna",
+    pos: "口语缩读",
+    ipa: "/ˈɡɒnə/",
+    meaning: "= going to（将要）",
+    details: [
+      {
+        videoId: "7703108575652881786",
+        exampleEn: "It's gonna be good. / It's gonna be crazy. / It's gonna be interesting.",
+        exampleZh: "会好的。/ 会很疯狂。/ 会很有趣。",
+        note: "going to 在口语里永远揉成 gonna，it's gonna 三个词连成一串。听力里听不出 gonna，多半不是生词问题而是没做过跟练。"
+      }
+    ]
+  },
+  {
+    word: "-ip 词族",
+    pos: "自然拼读",
+    ipa: "/ɪp/",
+    meaning: "lip 嘴唇、tip 小费、hip 臀部、zip 拉链、ship 轮船、chip 薯片、slip 滑倒",
+    details: [
+      {
+        videoId: "7703931222740986954",
+        exampleEn: "If you can read \"ip\", you can read lip, tip, hip, zip, ship, chip, slip.",
+        exampleZh: "会读 ip，这一串单词就都能读出来。",
+        note: "自然拼读「词族」记法：同一个韵脚 -ip，前面换辅音就是新词。搜索时输入 lip、zip、ship 等任一个词都能找到本条。"
+      }
+    ]
+  },
+  {
+    word: "take over",
+    pos: "动词短语",
+    ipa: "/teɪk ˈəʊvər/",
+    meaning: "接管、接手",
+    details: [
+      {
+        videoId: "7233705323196960057",
+        exampleEn: "I'm the person who's taking over your job.",
+        exampleZh: "我就是接管你工作的人。",
+        note: "《老友记》Rachel 产假回来，工位已被 Gavin 接管。take over = 接管（职位/公司/局面），名词 takeover 是收购。"
+      }
+    ]
+  },
+  {
+    word: "word spread",
+    pos: "固定搭配",
+    ipa: "/wɜːrd spred/",
+    meaning: "话传开了、消息传开了",
+    details: [
+      {
+        videoId: "7233705323196960057",
+        exampleEn: "Word spread that she was back.",
+        exampleZh: "她回来的消息传开了。",
+        note: "word 这里是「消息、传闻」（不可数，不加冠词），spread 传播（过去式同形）。类似说法：the news got around。"
       }
     ]
   }
